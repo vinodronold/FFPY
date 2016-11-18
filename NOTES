@@ -16,3 +16,14 @@ DOCKER-COMPOSE:
 sudo -i
 curl -L https://github.com/docker/compose/releases/download/1.9.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
+
+------------------------------------------------------------------------------------------------------------
+CREATING: FF POSTGRES IMAGE AND SPIN A CONTAINER:
+------------------------------------------------------------------------------------------------------------
+dckr build -t "psql01" .
+dckr run --name db01 -e POSTGRES_PASSWORD=fivefrets -d psql01
+                                                      (IMAGE_NAME)
+TEST DB: dckr run -it --rm --link db01:postgres postgres psql -h postgres -U fivefrets
+------------------------------------------------------------------------------------------------------------
+CREATING: FF UBUNTU 16.04 WITH DJANGO / LIBROSA
+------------------------------------------------------------------------------------------------------------
