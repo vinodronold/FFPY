@@ -1,0 +1,151 @@
+/* fivefrets css */
+
+body, body.pushable> .pusher {
+    background: url('/static/img/main_banner.jpg') no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div[id^='fflogo_'] {
+    padding-top: 0.3em;
+}
+
+div[id^='fflogo_']> svg {
+    display: block;
+    margin: 0 auto;
+}
+
+div[id^='ffcdia_']> svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ui.ffdisabled.button {
+    cursor: default;
+    background-image: none!important;
+    box-shadow: none!important;
+    pointer-events: none!important;
+}
+
+.ui.segment.chords {
+    height: 16.5rem;
+    /* height: 27rem; */
+    /* 1rem padding top and bottom + 3.5rem for each segment box */
+    overflow-y: hidden;
+}
+
+.ui.segment.chordslist {
+    padding-right: 0em!important;
+    padding-left: 0em!important;
+    cursor: pointer;
+}
+
+.ui.segment.chorddiagram {
+    min-height: 17.5rem;
+}
+
+#ff_transpose_num:before {
+    content: "Transpose: ";
+}
+
+div[data-chordid='1'][data-chordtyp='MIN']:after {
+    content: "Am";
+}
+
+div[data-chordid='1'][data-chordtyp='MAJ']:after {
+    content: "A";
+}
+
+div[data-chordid='2'][data-chordtyp='MIN']:after {
+    content: "B\266Dm";
+}
+
+div[data-chordid='2'][data-chordtyp='MAJ']:after {
+    content: "B\266D";
+}
+
+div[data-chordid='3'][data-chordtyp='MIN']:after {
+    content: "Bm";
+}
+
+div[data-chordid='3'][data-chordtyp='MAJ']:after {
+    content: "B";
+}
+
+div[data-chordid='4'][data-chordtyp='MIN']:after {
+    content: "Cm";
+}
+
+div[data-chordid='4'][data-chordtyp='MAJ']:after {
+    content: "C";
+}
+
+div[data-chordid='5'][data-chordtyp='MIN']:after {
+    content: "C#m";
+}
+
+div[data-chordid='5'][data-chordtyp='MAJ']:after {
+    content: "C#";
+}
+
+div[data-chordid='6'][data-chordtyp='MIN']:after {
+    content: "Dm";
+}
+
+div[data-chordid='6'][data-chordtyp='MAJ']:after {
+    content: "D";
+}
+
+div[data-chordid='7'][data-chordtyp='MIN']:after {
+    content: "D#m";
+}
+
+div[data-chordid='7'][data-chordtyp='MAJ']:after {
+    content: "D#";
+}
+
+div[data-chordid='8'][data-chordtyp='MIN']:after {
+    content: "Em";
+}
+
+div[data-chordid='8'][data-chordtyp='MAJ']:after {
+    content: "E";
+}
+
+div[data-chordid='9'][data-chordtyp='MIN']:after {
+    content: "Fm";
+}
+
+div[data-chordid='9'][data-chordtyp='MAJ']:after {
+    content: "F";
+}
+
+div[data-chordid='10'][data-chordtyp='MIN']:after {
+    content: "F#m";
+}
+
+div[data-chordid='10'][data-chordtyp='MAJ']:after {
+    content: "F#";
+}
+
+div[data-chordid='11'][data-chordtyp='MIN']:after {
+    content: "Gm";
+}
+
+div[data-chordid='11'][data-chordtyp='MAJ']:after {
+    content: "G";
+}
+
+div[data-chordid='12'][data-chordtyp='MIN']:after {
+    content: "G#m";
+}
+
+div[data-chordid='12'][data-chordtyp='MAJ']:after {
+    content: "G#";
+}
+
+div[data-chordid='N']:after {
+    content: "X";
+}

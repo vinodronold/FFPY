@@ -1,0 +1,24 @@
+version: '2'
+services:
+  app:
+    env_file:
+      - .env
+    build: .
+    user: "1000:1000"
+    privileged: true
+    container_name: app01
+    command: ./start.sh
+    depends_on:
+      - db
+    volumes:
+      - ./src:/src
+      - ./static:/static
+    ports:
+      - "8000:8000"
+    links:
+      - "db"
+  db:
+    env_file:
+      - .env
+    build: ./data
+    container_name: psql01

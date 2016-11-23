@@ -1,0 +1,47 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>fivefrets.com | Home</title>
+        <!--<script src='{% static "js/lib/modernizr-custom.js" %}'></script>-->
+        <link rel="stylesheet" href='{% static "css/semantic.min.css" %}'>
+        <link rel='stylesheet' href='{% static "css/site.css" %}'/>
+    </head>
+
+    <body>
+        <div class="ui sidebar left vertical inverted borderless labeled icon menu">
+            <div id="fflogo_1"></div>
+            {% include 'navbar.html' %}
+        </div>
+        <div class="pusher">
+            <div class="ui grid">
+                <div class="row">
+                    <div class="two wide computer only column">
+                        <div class="ui left fixed vertical inverted borderless labeled icon menu">
+                            <div id="fflogo_2"></div>
+                            {% include 'navbar.html' %}
+                        </div>
+                    </div>
+                    <div class="sixteen wide tablet fourteen wide computer column">
+                        {% include 'sidebar_icon.html' %}
+                        {% include 'searchbar.html' %}
+
+                        {% block content %}{% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src='{% static "js/require.js" %}' data-main='{% static "js/main-chords.js" %}'></script>
+        <script src='{% static "js/require-config.js" %}'></script>
+        <!--<script src='{% static "js/lib/jquery-3.1.1.min.js" %}'></script>
+        <script src='{% static "js/lib/semantic.min.js" %}'></script>
+        <script src='{% static "js/lib/raphael.min.js" %}'></script>
+        <script src='{% static "js/lib/site.js" %}'></script>-->
+    </body>
+
+</html>
