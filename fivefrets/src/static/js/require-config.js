@@ -1,7 +1,4 @@
-require.config({
-    paths: {
-        jquery: 'lib/jquery-3.1.1.min',
-        raphael: 'lib/raphael.min',
-        semantic_ui: 'lib/semantic.min'
-    }
-});
+U2FsdGVkX1+JxZrd3edDwOVmtlDy/P6daUO76YGCmRKpTMKDGsqSV/TTQaC2O79q
++HrAB09kR0kN3ZDAqU5OvhHU9YMAUCoxxHB9S/l1xB9n6dqrGrJRTvpDOFtg5FPC
+yv7UCag0NfYKXa6Ai4p1PVDmWrE0GbsSHAYi0uu/PmrqaLiq71bODznm7VtNfWqZ
+29a0lf7JiNBxcyibJDseBrWMFMJTzndenVmI3x6c7z4=

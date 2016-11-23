@@ -1,25 +1,15 @@
-define(["jquery", "app/logo", "app/ui", "app/cdiagram", "app/player"], function($, logo, appui, cdia, player) {
-    "use strict";
-
-    var _event_registration = function() {
-            $('#ffsidebarmenu').on('click', appui.sidebarmenu);
-            $('#ff_transpose_plus').on('click', {
-                step: '1'
-            }, appui.transpose);
-            $('#ff_transpose_minus').on('click', {
-                step: '-1'
-            }, appui.transpose);
-        },
-
-        init = function() {
-            _event_registration();
-            logo.draw();
-            appui.cards_image();
-            cdia.draw();
-            player.init();
-        };
-
-    return {
-        init: init
-    }
-});
+U2FsdGVkX1/me7GuzgppwNBsIy0lYqAuvCbKssROY+XlyGDkrszrp96l4Jtti83Z
+3hL0BusIx7hgUqoVJzPu6YvGeQaLcImjFy0gQ2h3G/QxPRbz9V2c535TCaW21lgM
+816D9O7/9oOb7AJoUCROY90htirrRvOXzDE32MlkWiYO7XIGpkhxbTUQ2EGS0Th/
+3Gp4y2O2phkwdfBqErYSWrazNL6Kg8nA8tymHORC4QOm3kzK0Igq8Y9eUsi2wmLE
+tpMftBZhBsZ0dTwAkOvqxTtV3yZIdAfvBc8M6S7bsuULGSpqzzkx3yVPrewghOo9
+EoqmJ1mA8LQInQg5xPnFISKGD29SpS2Tju3VZ183vASsw3DIGT+Hiz7dmyFhFN4Q
+3oJXfL1NFpfLOqZKjinqB/iaOd72PKbOQqU1tkSGXdmlwK8JOU3sW1B38fIY5r9Q
+qtFcE8vJkP4ezpc1eThjccZSVluq3bqcfTVTDQwsVmv5I+9bert5/6jVEv2E/b/A
+9rrDDKNjLKc5qDymcFPipXQwvK8yetbHKDgxINDpeJtlXxQdN46iDQA0Pzb7zXWG
+WINx/L63RbUk4nPi4IqfHskblvccyaJuG0+MzApqY/CIKom0J0wfVK91nxDsfgzV
+crrpMzGlxlMCCpMU/Zan09v+oiTkibbDsY0C9kekeAN/30WKVjtBMFrr+CPsGtoU
+38sMbo/WC+Xy0jUffJuhlUpDndUZs5z4jH//xxYHSnmkk9yubKfGsEwmnmehIUHP
+C0BLXmNC1lvXi0nqUOWnL+/aj7RmSes7lYWlQATyZFR9khoAO827kGFOda09WeS6
+2qmU/ld5MWHBsN28CIDY3YInJvZ4gpuLtrR6Yz/BeY8oUaNqkXCfKMQLKrnPvCXT
+9CUKxd4r34HJvdmVSuGe+ylDgOzBW8O2iDGRepp8pVkMz2+YBKvHQNuDrb6DQrKM

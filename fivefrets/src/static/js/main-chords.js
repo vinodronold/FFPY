@@ -1,5 +1,4 @@
-require(["jquery", "app/app-chords"], function($, chords) {
-    $(document).ready(function() {
-        chords.init();
-    });
-});
+U2FsdGVkX1/mpyRqh9eooO89Qihkm6GM4gAA90SjSF194gQ/ilapg8BdWUD3DkST
+yrHTt1NiJ1HU+/SaNIHr/N7QxFyg0yYCwhQfx8H92iJDq8yH4IzuV/h51sJ5Yzf2
+CLagKYleuiLh7/u/ykrjeKStMl/Jf6TpTIK7/zDNGz35tfyantQA3LMmQENCfbie
+QQoQ1obofJr8a1Y3RYbt8A==

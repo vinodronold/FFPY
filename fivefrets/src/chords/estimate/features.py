@@ -1,118 +1,93 @@
-from __future__ import print_function, unicode_literals
-import datetime
-import youtube_dl
-import librosa
-import traceback
-import subprocess
-import csv
-from chords.models import *
-
-class features:
-
-    def __init__(self, yt_id):
-        self.id = yt_id
-        self.title = ''
-        self.filepath = '/home/py/projects/tmp/'
-        self.ext = 'wav'
-        self.vamp_plugin = 'nnls-chroma:chordino:simplechord'
-
-    def dowload(self):
-        print("Start download - %s" % str(datetime.datetime.now()))
-        ydl_opts = {
-            'format': 'bestaudio/best',
-            'extractaudio' : True,
-            'audioformat' : self.ext,
-            #'outtmpl': '%(id)s.%(ext)s',
-            'outtmpl': self.filepath + '%(id)s.%(ext)s',
-            'noplaylist' : True,
-            'quiet': True,
-            'postprocessors': [{
-                'key': 'FFmpegExtractAudio',
-                'preferredcodec': self.ext,
-                'preferredquality': '128',
-            }]
-        }
-        ydl = youtube_dl.YoutubeDL(ydl_opts)
-        with ydl:
-            try:
-                result = ydl.extract_info(self.id, download=True)
-                self.title = result['title']
-            except Exception as e:
-                print("Can't download audio! %s\n" % traceback.format_exc())
-
-        #result = subprocess.check_call([
-        #    'youtube-dl',
-        #    '--no-playlist',
-        #    '--extract-audio',
-        #    '--audio-format', self.ext,
-        #    '--output', self.filepath + '%(id)s.%(ext)s',
-        #    '--cache-dir', self.filepath + 'youtube-dl',
-        #    self.id,
-        #    ])
-
-    def extract(self):
-        print("Start extract - %s" % str(datetime.datetime.now()))
-        result = subprocess.check_call([
-            'sonic-annotator',
-            '-d',
-            'vamp:'+self.vamp_plugin,
-            self.filepath + self.id + '_hpss.' + self.ext,
-            '-w', 'csv',
-            '--csv-force',
-            '--force',
-            ])
-
-    def process_beats(self):
-        print("Start process_beats - %s" % str(datetime.datetime.now()))
-        print('processing beats . . .')
-        print('loading . . .')
-        audio, sample_rate = librosa.load(self.filepath + self.id + '.' + self.ext)
-        audio_harmonic, audio_percussive = librosa.effects.hpss(audio)
-        print('get beat frames . . .')
-        tempo, beat_frames = librosa.beat.beat_track(y=audio_percussive, sr=sample_rate)
-        librosa.output.write_wav(self.filepath + self.id + '_hpss.' + self.ext, audio_harmonic, sample_rate)
-        #print('Estimated tempo: {:.2f} beats per minute'.format(tempo))
-        print('beat frames to time . . .')
-        beat_times = librosa.frames_to_time(beat_frames, sr=sample_rate)
-        #librosa.output.times_csv(self.filepath + self.id + '_librosa_beat_times.csv', beat_times)
-
-        self.extract()
-        print('load chords . . .')
-        with open(self.filepath + self.id + '_vamp_' + self.vamp_plugin.replace(':', '_') + '.csv', 'r') as f:
-            reader = csv.reader(f)
-            chords = list(reader)
-
-        #with open(self.filepath + self.id + '_librosa_beat_times.csv', 'r') as f:
-        #    reader = csv.reader(f)
-        #    beat_times = list(reader)
-
-        print('match chords and beat . . .')
-        chord_idx = 0
-
-        # Adding Songs
-        add_song = Song(name = self.title, youtube = self.id)
-        add_song.save()
-        insert_list = []
-
-        for beat_time in beat_times:
-
-            if float(beat_time) >= float(chords[chord_idx + 1][0]):
-                chord_idx += 1
-
-            est_chord = chords[chord_idx][1].split('-')
-            id_chord_typ = ''
-            if len(est_chord) > 1:
-                id_chord_typ = est_chord[1]
-
-            id_chords = Chord.objects.filter(name__exact = est_chord[0],
-                                             typ__exact = 'MIN' if id_chord_typ == 'm' else 'MAJ')
-            for id_chord in id_chords:
-                id_chord = id_chord
-                break
-            insert_list.append(SongChord(song = add_song,
-                                         chord = id_chord,
-                                         beat_position = beat_time,
-                                         start_time = chords[chord_idx][0]))
-            # print(beat_time[0], chords[chord_idx][0], est_chord, id_chord, id_chord.id)
-
-        SongChord.objects.bulk_create(insert_list)
+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

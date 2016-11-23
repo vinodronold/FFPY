@@ -1,0 +1,4 @@
+#pattern  filter=crypt diff=crypt
+fivefrets/**/*.js filter=crypt diff=crypt
+fivefrets/**/*.css filter=crypt diff=crypt
+fivefrets/src/chords/estimate/* filter=crypt diff=crypt
