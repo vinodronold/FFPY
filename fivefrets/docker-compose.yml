@@ -2,9 +2,9 @@ version: '2'
 services:
   app:
     env_file:
+      - app.env
       - .env
     build: .
-    user: "1000:1000"
     privileged: true
     container_name: app01
     command: ./start.sh
