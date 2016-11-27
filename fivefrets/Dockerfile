@@ -7,11 +7,11 @@ COPY ["./VAMP/nnls-chroma-1.1/nnls-chroma.*", "./VAMP/nnls-chroma-1.1/chord.dict
 
 RUN mkdir /src \
     && apt-get update && apt-get -y upgrade && apt-get install -y --no-install-recommends apt-utils\
-    && apt-get -y install dialog python3 python3-pip libav-tools libfishsound1 libid3tag0 liblrdf0 libmad0 \
+    && apt-get -y install dialog python3 python3-tk python3-pip libav-tools libfishsound1 libid3tag0 liblrdf0 libmad0 \
                           liboggz2 libqt5network5 libqt5xml5 libsamplerate0 libsndfile1 \
                           libsord-0-0 libsord-0-0 libstdc++6 vamp-plugin-sdk \
                           libfftw3-double3 libfishsound1 liblrdf0 libmad0 liboggz2 libqt5network5 libqt5xml5 \
-                          libsamplerate0 libsndfile1 libsord-0-0 libid3tag0 libpq-dev ffmpeg \
+                          libsamplerate0 libsndfile1 libsord-0-0 libid3tag0 libpq-dev  \
     && dpkg -i "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
     && rm "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
     && pip3 install --upgrade pip \
@@ -23,5 +23,5 @@ RUN mkdir /src \
     && pip3 install --upgrade youtube_dl
 
 WORKDIR ${APP_ROOT}
-ADD ./src/start.sh /
-ADD . ${APP_ROOT}
+# ADD ./src/start.sh /
+# ADD . ${APP_ROOT}
