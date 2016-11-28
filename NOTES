@@ -34,3 +34,4 @@ BUILDING CHORDINO VAMP-PLUGIN
 cd <path to nnls-chorma source>
 make -f Makefile.linux
 ------------------------------------------------------------------------------------------------------------
+NEED TO CHECK : myproject/settings.py @ https://www.syncano.io/blog/configuring-running-django-celery-docker-containers-pt-1/

@@ -16,12 +16,14 @@ RUN mkdir /src \
     && rm "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
     && pip3 install --upgrade pip \
     && pip3 install django \
+    && pip3 install celery \
+    && pip3 install djangorestframework\
     && pip3 install gunicorn \
     && pip3 install psycopg2 \
+    && pip3 install redis \
+    && pip3 install kombu \
     && pip3 install numpy \
     && pip3 install librosa \
     && pip3 install --upgrade youtube_dl
 
 WORKDIR ${APP_ROOT}
-# ADD ./src/start.sh /
-# ADD . ${APP_ROOT}

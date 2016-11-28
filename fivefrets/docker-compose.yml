@@ -1,24 +1,62 @@
 version: '2'
 services:
+
+  db:
+    env_file:
+      - .env
+    build:
+      context: ./data
+      dockerfile: Dockerfile
+    hostname: db
+    container_name: psql01
+
+  redis:
+    image: redis:latest
+    hostname: redis
+    container_name: rd01
+
+  rabbit:
+    image: rabbitmq:latest
+    hostname: rabbit
+    container_name: rmq01
+    env_file:
+      - rabbit.env
+    ports:
+      - "5672:5672"  # we forward this port because it's useful for debugging
+      - "15672:15672"  # here, we can access rabbitmq management plugin
+
   app:
     env_file:
       - app.env
       - .env
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     privileged: true
     container_name: app01
-    command: ./start.sh
-    depends_on:
-      - db
+    command: ./start_app.sh
     volumes:
       - ./src:/src
       - ./static:/static
     ports:
       - "8000:8000"
     links:
-      - "db"
-  db:
-    env_file:
-      - .env
-    build: ./data
-    container_name: psql01
+      - db
+      - rabbit
+      - redis
+    depends_on:
+      - db
+  # Celery worker
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ./start_celery.sh
+    volumes:
+      - ./src:/src
+    links:
+      - db
+      - rabbit
+      - redis
+    depends_on:
+      - rabbit
