@@ -2,4 +2,4 @@
 
 sleep 10
 
-celery worker -A fivefrets.celery -Q default -n default@%h
+celery worker -A fivefrets.celeryconf -Q default -n default@%h
