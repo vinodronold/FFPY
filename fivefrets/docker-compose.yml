@@ -3,17 +3,12 @@ services:
 
   db:
     env_file:
-      - .env
+      - db.env
     build:
       context: ./data
       dockerfile: Dockerfile
     hostname: db
-    container_name: psql01
-
-  redis:
-    image: redis:latest
-    hostname: redis
-    container_name: rd01
+    container_name: db01
 
   rabbit:
     image: rabbitmq:latest
@@ -28,12 +23,14 @@ services:
   app:
     env_file:
       - app.env
-      - .env
+      - db.env
+      - rabbit.env
     build:
       context: .
       dockerfile: Dockerfile
     privileged: true
-    container_name: app01
+    hostname: app
+    container_name: ap01
     command: ./start_app.sh
     volumes:
       - ./src:/src
@@ -43,20 +40,25 @@ services:
     links:
       - db
       - rabbit
-      - redis
     depends_on:
       - db
+
   # Celery worker
   worker:
+    env_file:
+      - app.env
+      - db.env
+      - rabbit.env
     build:
       context: .
       dockerfile: Dockerfile
+    hostname: worker
+    container_name: wk01
     command: ./start_celery.sh
     volumes:
       - ./src:/src
     links:
       - db
       - rabbit
-      - redis
     depends_on:
       - rabbit
