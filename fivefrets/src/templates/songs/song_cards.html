@@ -1,0 +1,24 @@
+<div class="ui basic segment">
+    <div class="ui four doubling stackable special cards">
+        {% for song in song_list %}
+            <div class="card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="content">
+                            <div class="center">
+                                <div class="ui inverted button">Get Chords</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="https://i.ytimg.com/vi/{{song.youtube}}/mqdefault.jpg">
+                </div>
+                <div class="content">
+                    <a class="header" href="{% url 'song-detail' song.id %}">{{ song }}</a>
+                    <div class=" meta">
+                        <span class="date">Create in Sep 2014</span>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="ui segment chorddiagram">
+    <div class="ui grid">
+        {% for chord in chords %}
+            <div class="eight wide mobile four wide tablet three wide computer column ffcdia" id="ffcdia_{{forloop.counter}}" data-ffcdia="{{chord.guitar}}" data-ffcdianame="{{chord}}"></div>
+        {% endfor %}
+    </div>
+</div>

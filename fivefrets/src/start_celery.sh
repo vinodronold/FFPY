@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sleep 10
+sleep 180
 
-celery worker -A fivefrets.celeryconf -Q default -n default@%h
+# celery worker -A fivefrets.celeryconf -Q default -n default@%h
+celery -A fivefrets worker -l info

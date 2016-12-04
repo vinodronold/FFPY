@@ -15,26 +15,43 @@
 
     <body>
         <div class="ui sidebar left vertical inverted borderless labeled icon menu">
-            <div id="fflogo_1"></div>
-            {% include 'navbar.html' %}
+            <div id="fflogo_1">{% include 'utils/logo.html' %}</div>
+            {% include 'utils/navbar.html' %}
         </div>
         <div class="pusher">
             <div class="ui grid">
                 <div class="row">
                     <div class="two wide computer only column">
                         <div class="ui left fixed vertical inverted borderless labeled icon menu">
-                            <div id="fflogo_2"></div>
-                            {% include 'navbar.html' %}
+                            <div id="fflogo_2">
+                                {% include 'utils/logo.html' %}
+                            </div>
+                            {% include 'utils/navbar.html' %}
                         </div>
                     </div>
                     <div class="sixteen wide tablet fourteen wide computer column">
-                        {% include 'sidebar_icon.html' %}
-                        {% include 'searchbar.html' %}
+                        {% include 'utils/sidebar_icon.html' %}
+                        {% include 'utils/searchbar.html' %}
 
                         {% block content %}{% endblock %}
+
                     </div>
                 </div>
             </div>
+            <div class="ui basic segment"></div>
+            <footer>
+                <div class="ui center aligned container">
+                    <div class="ui tiny stackable compact text inverted menu">
+                        <div class="item">fivefrets.com 2015</div>
+                        <a class="ui centered item">FAQs</a>
+                        <a class="item">Chord Recongniton</a>
+                        <a class="item">facebook</a>
+                        <a class="item">twitter</a>
+                        <a class="item">disclaimer</a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
         <script src='{% static "js/require.js" %}' data-main='{% static "js/main-chords.js" %}'></script>
         <script src='{% static "js/require-config.js" %}'></script>
@@ -44,4 +61,6 @@
         <script src='{% static "js/lib/site.js" %}'></script>-->
     </body>
 
+</html>
+</html>
 </html>

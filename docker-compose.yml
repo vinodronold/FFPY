@@ -1,0 +1,65 @@
+version: '2'
+services:
+
+  db:
+    env_file:
+      - db.env
+    build: ./data
+    hostname: db
+    container_name: db01
+
+  rabbit:
+    env_file:
+      - rabbit.env
+    image: rabbitmq:3-management
+    hostname: rabbit
+    container_name: rq01
+    ports:
+      - "5672:5672"   # we forward this port because it's useful for debugging
+      - "15672:15672" # rabbitmq management plugin
+
+  redis:
+    image: redis:latest
+    hostname: redis
+    container_name: rd01
+
+  app:
+    env_file:
+      - app.env
+      - db.env
+      - rabbit.env
+    build: .
+    privileged: true
+    hostname: app
+    container_name: ap01
+    command: ./start_app.sh
+    volumes:
+      - ./fivefrets/src:/src
+      - ./fivefrets/static:/static
+    ports:
+      - "8000:8000"
+    links:
+      - db
+      - rabbit
+      - redis
+    depends_on:
+      - db
+
+  # Celery worker
+  worker:
+    env_file:
+      - app.env
+      - db.env
+      - rabbit.env
+    build: .
+    hostname: worker
+    container_name: wk01
+    command: ./start_celery.sh
+    volumes:
+      - ./fivefrets/src:/src
+    links:
+      - db
+      - rabbit
+      - redis
+    depends_on:
+      - rabbit

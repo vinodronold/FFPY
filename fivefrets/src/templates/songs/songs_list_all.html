@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="ui basic segment">
+        <div class="ui verytiny fluid buttons">
+            <a class="ui button" href="{% url 'song-browse' '0' %}">0-1</a>
+            <a class="ui button" href="{% url 'song-browse' 'A' %}">A</a>
+            <a class="ui button" href="{% url 'song-browse' 'B' %}">B</a>
+            <a class="ui button" href="{% url 'song-browse' 'C' %}">C</a>
+            <a class="ui button" href="{% url 'song-browse' 'D' %}">D</a>
+            <a class="ui button" href="{% url 'song-browse' 'E' %}">E</a>
+            <a class="ui button" href="{% url 'song-browse' 'F' %}">F</a>
+            <a class="ui button" href="{% url 'song-browse' 'G' %}">G</a>
+            <a class="ui button" href="{% url 'song-browse' 'H' %}">H</a>
+            <a class="ui button" href="{% url 'song-browse' 'I' %}">I</a>
+            <a class="ui button" href="{% url 'song-browse' 'J' %}">J</a>
+            <a class="ui button" href="{% url 'song-browse' 'K' %}">K</a>
+            <a class="ui button" href="{% url 'song-browse' 'L' %}">L</a>
+            <a class="ui button" href="{% url 'song-browse' 'M' %}">M</a>
+            <a class="ui button" href="{% url 'song-browse' 'N' %}">N</a>
+            <a class="ui button" href="{% url 'song-browse' 'O' %}">O</a>
+            <a class="ui button" href="{% url 'song-browse' 'P' %}">P</a>
+            <a class="ui button" href="{% url 'song-browse' 'Q' %}">Q</a>
+            <a class="ui button" href="{% url 'song-browse' 'R' %}">R</a>
+            <a class="ui button" href="{% url 'song-browse' 'S' %}">S</a>
+            <a class="ui button" href="{% url 'song-browse' 'T' %}">T</a>
+            <a class="ui button" href="{% url 'song-browse' 'U' %}">U</a>
+            <a class="ui button" href="{% url 'song-browse' 'V' %}">V</a>
+            <a class="ui button" href="{% url 'song-browse' 'W' %}">W</a>
+            <a class="ui button" href="{% url 'song-browse' 'X' %}">X</a>
+            <a class="ui button" href="{% url 'song-browse' 'Y' %}">Y</a>
+            <a class="ui button" href="{% url 'song-browse' 'Z' %}">Z</a>
+        </div>
+    </div>
+    {% include "songs/song_cards.html" %}
+{% endblock %}
