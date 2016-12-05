@@ -19,6 +19,7 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
     && pip3 install celery \
     && pip3 install djangorestframework \
     && pip3 install django-allauth \
+    django-semanticui-form
     && pip3 install redis \
     && pip3 install numpy \
     && pip3 install librosa \

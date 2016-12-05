@@ -1,0 +1,9 @@
+{% if messages %}
+    <div class="ui message">
+        <ul class="list">
+            {% for message in messages %}
+                <li{% if message.tags %} class="ff_display {{ message.tags }}" {% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

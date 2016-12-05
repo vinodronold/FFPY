@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="ui basic segment">
+        <div class="ui very padded segment">
+            <!--<h1 class="ui header">User Profile</h1>-->
+            <div class="three ui buttons">
+                <a class="ui button" href="{% url 'account_change_password' %}">Change Password</a>
+                <a class="ui button" href="{% url 'account_email' %}">Change Email</a>
+                <a class="ui button">Update Profile</a>
+            </div>
+            <h1 class="ui header">Your Songs List</h1>
+            <div class="ui relaxed items">
+              {% for song in song_list %}
+              <div class="item">
+                  <div class="ui tiny image">
+                      <img src="https://i.ytimg.com/vi/{{song.youtube}}/mqdefault.jpg">
+                  </div>
+                  <div class="middle aligned content">
+                      <a class="header" href="{% url 'song-detail' song.id %}">{{ song }}</a>
+                  </div>
+              </div>
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

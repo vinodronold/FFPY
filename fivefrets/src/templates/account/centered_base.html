@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="ui basic segment">
+        <div class="ui very padded segment">
+            <div class="ui form error warning">
+                <div class="ui center aligned container">
+                    {% block account_content %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

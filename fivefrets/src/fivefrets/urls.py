@@ -16,10 +16,12 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from songs.views import SongHomeView
+from userprofile.views import ProfileHomeView
 
 urlpatterns = [
     url(r'^$', SongHomeView.as_view(), name='main-home'),
     url(r'^accounts/', include('allauth.urls')),
+    url(r'^accounts/profile', ProfileHomeView.as_view(), name='profile-home'),
     url(r'^admin/', admin.site.urls),
     url(r'^song/', include("songs.urls")),
     url(r'^songs/', include("songs.urls")),

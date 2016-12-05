@@ -42,11 +42,13 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'semanticuiform',
     #'allauth.socialaccount.providers.facebook',
     #'allauth.socialaccount.providers.google',
     # fivefrets apps
     'chords',
     'songs',
+    'userprofile',
 ]
 
 MIDDLEWARE = [
@@ -151,3 +153,9 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 
 # All Auth Config
 SITE_ID = 1
+LOGIN_REDIRECT_URL = "/"
+# ACCOUNT_AUTHENTICATION_METHOD = "username_email"
+ACCOUNT_EMAIL_REQUIRED = True
+# ACCOUNT_EMAIL_VERIFICATION = "mandatory"
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
+ACCOUNT_USERNAME_MIN_LENGTH = 5
