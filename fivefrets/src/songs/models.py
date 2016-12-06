@@ -37,6 +37,7 @@ class Singer(models.Model):
 class Song(models.Model):
     name = models.CharField(max_length=100)
     youtube = models.CharField(max_length=100)
+    bpm = models.CharField(max_length=10)
     lyric = models.TextField(blank=True)
     album = models.ForeignKey(Album, blank=True, null=True)
     composer = models.ForeignKey(Composer, blank=True, null=True)
