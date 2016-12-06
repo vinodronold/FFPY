@@ -35,8 +35,8 @@ class Singer(models.Model):
 
 
 class Song(models.Model):
-    name = models.CharField(max_length=100)
     youtube = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
     bpm = models.CharField(max_length=10)
     lyric = models.TextField(blank=True)
     album = models.ForeignKey(Album, blank=True, null=True)
@@ -74,6 +74,7 @@ class SongChord(models.Model):
         Chord, related_name='modified_chord', blank=True, null=True)
     beat_position = models.FloatField(default=-1)
     start_time = models.FloatField(default=-1)
+    test = models.CharField(max_length=1)
 
     class Meta:
         ordering = ['id']
