@@ -2,4 +2,4 @@
 fivefrets/**/*.js filter=crypt diff=crypt
 fivefrets/**/*.css filter=crypt diff=crypt
 fivefrets/**/*.env filter=crypt diff=crypt
-fivefrets/src/chords/estimate/* filter=crypt diff=crypt
+fivefrets/src/chords/extraction.py filter=crypt diff=crypt
