@@ -35,13 +35,22 @@ class Singer(models.Model):
 
 
 class Song(models.Model):
+    PROCESS_STATUS_VALUES = (
+        (0, 'SUCCESS'),
+        (1, 'NOT STARTED'),
+        (2, 'PROCESSING'),
+        (3, 'INVALID YOUTUBE ID'),
+        (4, 'DOWNLOAD ERROR'),
+        (5, 'BEAT PROCESS ERROR'),
+    )
     youtube = models.SlugField(max_length=100)
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, default='PROCESSING . . .')
     created_by = models.ForeignKey(
         settings.AUTH_USER_MODEL, null=True, blank=True)
-    bpm = models.CharField(max_length=10)
-    process_status = models.DecimalField(
+    bpm = models.DecimalField(
         max_digits=6, decimal_places=2, default=0)
+    process_status = models.PositiveSmallIntegerField(
+        default=1, choices=PROCESS_STATUS_VALUES)
     lyric = models.TextField(blank=True)
     album = models.ForeignKey(Album, blank=True, null=True)
     composer = models.ForeignKey(Composer, blank=True, null=True)

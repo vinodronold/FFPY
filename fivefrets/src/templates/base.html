@@ -40,14 +40,17 @@
             </div>
             <div class="ui basic segment"></div>
             <footer>
-                <div class="ui center aligned container">
-                    <div class="ui tiny stackable compact text inverted menu">
-                        <div class="item">fivefrets.com 2015</div>
-                        <a class="ui centered item">FAQs</a>
-                        <a class="item">Chord Recongniton</a>
-                        <a class="item">facebook</a>
-                        <a class="item">twitter</a>
-                        <a class="item">disclaimer</a>
+                <div class="ui center aligned fluid container">
+                    <div class="ui inverted segment">
+                        <div class="ui inverted relaxed list">
+                            <a class="item">Home</a>
+                            <a class="item">About</a>
+                            <a class="item">Frequenctly Asked Questions</a>
+                            <a class="item">Chord Recongniton</a>
+                            <a class="item">Facebook</a>
+                            <a class="item">Twitter</a>
+                            <a class="item">Disclaimer</a>
+                        </div>
                     </div>
                 </div>
             </footer>
@@ -55,10 +58,6 @@
         </div>
         <script src='{% static "js/require.js" %}' data-main='{% static "js/main-chords.js" %}'></script>
         <script src='{% static "js/require-config.js" %}'></script>
-        <!--<script src='{% static "js/lib/jquery-3.1.1.min.js" %}'></script>
-        <script src='{% static "js/lib/semantic.min.js" %}'></script>
-        <script src='{% static "js/lib/raphael.min.js" %}'></script>
-        <script src='{% static "js/lib/site.js" %}'></script>-->
         {% block extra_script %}{% endblock %}
     </body>
 

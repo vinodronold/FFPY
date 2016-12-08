@@ -2,7 +2,9 @@
 {% block content %}
     <div class="ui basic segment" id="songs_player">
         <div class="ui inverted segment">
-            <!--{% include "utils/loading_segment.html" %}-->
+            {% if song.process_status > 0 %}
+                {% include "utils/loading_segment.html" %}
+            {% endif %}
             <div class="ui basic segment">
                 <h1 class="ui inverted header">{{ song.name }}</h1>
                 {% if song_meta %}
