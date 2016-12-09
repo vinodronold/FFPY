@@ -12,6 +12,7 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
                           libsamplerate0 libsndfile1 libsord-0-0 libid3tag0 libpq-dev\
     && dpkg -i "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
     && rm "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
+    && locale-gen en_US en_US.UTF-8 && dpkg-reconfigure locales && export LC_ALL=en_US.UTF-8 \
     && pip3 install --upgrade pip \
     && pip3 install gunicorn \
     && pip3 install psycopg2 \
