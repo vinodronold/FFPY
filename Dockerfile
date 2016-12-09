@@ -24,4 +24,5 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
     && pip3 install redis \
     && pip3 install numpy \
     && pip3 install librosa \
-    && pip3 install --upgrade youtube_dl
+    && pip3 install --upgrade youtube_dl \
+    && adduser --disabled-password --gecos '' ffrets

@@ -159,3 +159,19 @@ ACCOUNT_EMAIL_REQUIRED = True
 # ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 5
+
+# Extraction Config
+FF_EXTRACT_PATH = '/tmp/'
+FF_EXTRACT_EXT = 'wav'
+FF_EXTRACT_YTID = '**YTID**'
+FF_EXTRACT_VAMP = 'nnls-chroma:chordino:simplechord'
+FF_EXTRACT_FILEPATH = FF_EXTRACT_PATH + FF_EXTRACT_YTID + '.' + FF_EXTRACT_EXT
+FF_EXTRACT_CSV = FF_EXTRACT_PATH + FF_EXTRACT_YTID + \
+    '_vamp_' + FF_EXTRACT_VAMP.replace(':', '_') + '.csv',
+
+# Celery settings
+CELERY_BROKER_URL = 'pyamqp://{user}:{password}@{hostname}/{vhost}/'.format(
+    user=os.environ.get('RABBITMQ_DEFAULT_USER'),
+    password=os.environ.get('RABBITMQ_DEFAULT_PASS'),
+    hostname='rabbit',
+    vhost=os.environ.get('RABBIT_ENV_VHOST', ''))
