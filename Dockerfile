@@ -12,16 +12,15 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
                           libsamplerate0 libsndfile1 libsord-0-0 libid3tag0 libpq-dev\
     && dpkg -i "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
     && rm "/usr/local/lib/vamp/sonic-annotator_1.4cc1-1_amd64.deb" \
-    && locale-gen en_US en_US.UTF-8 && dpkg-reconfigure locales && export LC_ALL=en_US.UTF-8 \
     && pip3 install --upgrade pip \
     && pip3 install gunicorn \
     && pip3 install psycopg2 \
     && pip3 install django \
     && pip3 install celery \
+    && pip3 install django-celery-results \ SQLAlchemy
     && pip3 install djangorestframework \
     && pip3 install django-allauth \
     && pip3 install django-semanticui-form \
-    && pip3 install redis \
     && pip3 install numpy \
     && pip3 install librosa \
     && pip3 install --upgrade youtube_dl \

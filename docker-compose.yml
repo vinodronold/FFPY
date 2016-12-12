@@ -17,12 +17,6 @@ services:
     ports:
       - "5672:5672"   # we forward this port because it's useful for debugging
       - "15672:15672" # rabbitmq management plugin
-
-  redis:
-    image: redis:latest
-    hostname: redis
-    container_name: rd01
-
   app:
     env_file:
       - app.env
@@ -41,7 +35,6 @@ services:
     links:
       - db
       - rabbit
-      - redis
     depends_on:
       - db
 
@@ -60,6 +53,5 @@ services:
     links:
       - db
       - rabbit
-      - redis
     depends_on:
       - rabbit

@@ -1,7 +1,8 @@
 from django.core.urlresolvers import reverse_lazy
 from django.http import Http404
 from django.views.generic import DetailView, ListView, RedirectView
-
+from celery import chain, group
+from chords.tasks import download, extract, convert_to_chords, delete_all_files
 from .models import Song
 
 
@@ -36,10 +37,15 @@ class SongPlayerView(DetailView):
             self.object = self.get_object()
         except Http404:
             self.object = Song(
-                youtube=kwargs[super(SongPlayerView, self).slug_url_kwarg]
+                youtube=kwargs[super(SongPlayerView, self).slug_url_kwarg],
+                created_by=request.user
             )
-            print(kwargs[super(SongPlayerView, self).slug_url_kwarg])
             self.object.save()
+            print("PROCESSING - ",
+                  kwargs[super(SongPlayerView, self).slug_url_kwarg])
+            res = chain(download.s(kwargs[super(SongPlayerView, self).slug_url_kwarg]), extract.s(),
+                        convert_to_chords.s(), delete_all_files.s())()
+
         context = self.get_context_data(object=self.object)
         return self.render_to_response(context)
 

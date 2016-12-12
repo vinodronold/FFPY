@@ -1,13 +1,14 @@
 from celery import chain, group
-from chords.tasks import download, extract, convert_to_chords
+from chords.tasks import download, extract, convert_to_chords, delete_all_files
 
 yt_id = 'IarsrX60bZw'
 
-process_song = group([extract.s(),
-                      convert_to_chords.s()])
-d = chain(download.s(yt_id), process_song)()
+# process_song = group([extract.s(),
+#                       convert_to_chords.s()])
+d = chain(download.s(yt_id), extract.s(),
+          convert_to_chords.s(), save_chords.s(), delete_all_files.s())()
 
-# result = download.delay(yt_id)
+#result = download.delay(yt_id)
 # from datetime import datetime
 # from chords.extraction import features
 

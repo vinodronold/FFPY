@@ -39,8 +39,8 @@ class Song(models.Model):
         (0, 'SUCCESS'),
         (1, 'NOT STARTED'),
         (2, 'PROCESSING'),
-        (3, 'INVALID YOUTUBE ID'),
-        (4, 'DOWNLOAD ERROR'),
+        (3, 'MORE THAN SETUP DURATION'),
+        (4, 'YOUTUBE ID DOWNLOAD ERROR'),
         (5, 'BEAT PROCESS ERROR'),
     )
     youtube = models.SlugField(max_length=100)
@@ -60,9 +60,6 @@ class Song(models.Model):
 
     def __str__(self):
         return str(self.name)
-
-    def save(self, *args, **kwargs):
-        super(Song, self).save(*args, **kwargs)
 
     def get_songchord_list(self):
         return SongChord.objects.filter(song_id__exact=self.id)
@@ -88,7 +85,6 @@ class SongChord(models.Model):
         Chord, related_name='modified_chord', blank=True, null=True)
     beat_position = models.FloatField(default=-1)
     start_time = models.FloatField(default=-1)
-    test = models.CharField(max_length=1)
 
     class Meta:
         ordering = ['id']

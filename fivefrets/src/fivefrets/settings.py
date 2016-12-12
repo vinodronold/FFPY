@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     # 3rd Party
+    #'django_celery_results',
+    #'rest_framework',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -167,11 +169,23 @@ FF_EXTRACT_YTID = '**YTID**'
 FF_EXTRACT_VAMP = 'nnls-chroma:chordino:simplechord'
 FF_EXTRACT_FILEPATH = FF_EXTRACT_PATH + FF_EXTRACT_YTID + '.' + FF_EXTRACT_EXT
 FF_EXTRACT_CSV = FF_EXTRACT_PATH + FF_EXTRACT_YTID + \
-    '_vamp_' + FF_EXTRACT_VAMP.replace(':', '_') + '.csv',
+    '_vamp_' + FF_EXTRACT_VAMP.replace(':', '_') + '.csv'
+FF_EXTRACT_MAX_DURATION = 480
 
 # Celery settings
-CELERY_BROKER_URL = 'pyamqp://{user}:{password}@{hostname}/{vhost}/'.format(
+CELERY_BROKER_URL = 'amqp://{user}:{password}@{hostname}/{vhost}/'.format(
     user=os.environ.get('RABBITMQ_DEFAULT_USER'),
     password=os.environ.get('RABBITMQ_DEFAULT_PASS'),
     hostname='rabbit',
     vhost=os.environ.get('RABBIT_ENV_VHOST', ''))
+# CELERY_RESULT_BACKEND = 'db+postgresql://{user}:{password}@{hostname}:{portnum}/{dbname}'.format(
+#     user=os.environ.get('POSTGRES_USER'),
+#     password=os.environ.get('POSTGRES_PASSWORD'),
+#     hostname='db',
+#     portnum=os.environ.get('POSTGRES_PORT'),
+#     dbname=os.environ.get('POSTGRES_DBNAME'))
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_ACCEPT_CONTENT = ['json']
+
+DATA_UPLOAD_MAX_NUMBER_FIELDS = None
