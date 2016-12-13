@@ -1,0 +1,38 @@
+<div id="player_process_status{% if song.process_status == 0 %}_success{% endif %}" class="ui inverted segment">
+    {% if song.process_status > 0 %}
+        {% include "utils/loading_segment.html" %}
+    {% endif %}
+    <div class="ui basic segment">
+        <h1 class="ui inverted header">{{ song.name }}</h1>
+        {% if song_meta %}
+            <h5 class="ui inverted header">{{ song_meta }}</h5>
+        {% endif %}
+    </div>
+    {% include "songs/player_controls.html" %}
+    <div class="ui basic segment chords">
+        <div class="ui grid">
+            {% for chord in songchord_list %}
+                <div class="four wide tablet two wide computer column">
+                    <div class="ui center aligned segment chordslist" id="ffchordlist" data-chordidx="{{ forloop.counter }}" data-chordid="{{ chord.chord.name }}" data-chordtyp="{{ chord.chord.typ }}" data-postn="{{ chord.beat_position }}"></div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="ui basic segment">
+        <div class="ui mobile stackable equal width grid">
+            <div class="five wide column">
+                <div class="ui embed" id='ff_ui_embed' data-source="youtube" data-id="{{ song.youtube }}" data-placeholder="https://i.ytimg.com/vi/{{ song.youtube }}/hqdefault.jpg"></div>
+            </div>
+            <div class="column">
+                {% include "utils/chord_diagram.html" %}
+            </div>
+        </div>
+    </div>
+    {% if song.lyric %}
+        <div class="ui basic segment">
+            <div class="ui segment">
+                {{ song.lyric }}
+            </div>
+        </div>
+    {% endif %}
+</div>

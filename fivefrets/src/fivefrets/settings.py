@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'semanticuiform',
     #'allauth.socialaccount.providers.facebook',
-    #'allauth.socialaccount.providers.google',
     # fivefrets apps
     'chords',
     'songs',
@@ -188,4 +187,4 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_ACCEPT_CONTENT = ['json']
 
-DATA_UPLOAD_MAX_NUMBER_FIELDS = None
+# DATA_UPLOAD_MAX_NUMBER_FIELDS = None

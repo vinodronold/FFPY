@@ -4,6 +4,7 @@ from django.views.generic import DetailView, ListView, RedirectView
 from celery import chain, group
 from chords.tasks import download, extract, convert_to_chords, delete_all_files
 from .models import Song
+from .mixin import GetSongContextMixin
 
 
 class SongHomeView(ListView):
@@ -27,10 +28,9 @@ class SongBrowseView(ListView):
         return Song.objects.filter(name__istartswith=self.kwargs['StartWith']).order_by('-id')
 
 
-class SongPlayerView(DetailView):
-    slug_field = 'youtube'
-    template_name = "songs/songs_player.html"
+class SongPlayerView(GetSongContextMixin, DetailView):
     model = Song
+    template_name = "songs/songs_player_view.html"
 
     def get(self, request, *args, **kwargs):
         try:
@@ -41,17 +41,21 @@ class SongPlayerView(DetailView):
                 created_by=request.user
             )
             self.object.save()
-            print("PROCESSING - ",
-                  kwargs[super(SongPlayerView, self).slug_url_kwarg])
             res = chain(download.s(kwargs[super(SongPlayerView, self).slug_url_kwarg]), extract.s(),
                         convert_to_chords.s(), delete_all_files.s())()
 
         context = self.get_context_data(object=self.object)
         return self.render_to_response(context)
 
-    def get_context_data(self, **kwargs):
-        context = super(SongPlayerView, self).get_context_data(**kwargs)
-        context['song_meta'] = self.get_object().get_song_meta()
-        context['songchord_list'] = self.get_object().get_songchord_list()
-        context['chords'] = self.get_object().get_song_chords()
-        return context
+
+class SongPlayerAjaxView(GetSongContextMixin, DetailView):
+    model = Song
+    template_name = "songs/songs_player_ajax.html"
+
+    def get(self, request, *args, **kwargs):
+        if not request.is_ajax():
+            raise Http404("Oops not a correct call")
+
+        self.object = self.get_object()
+        context = self.get_context_data(object=self.object)
+        return self.render_to_response(context)
