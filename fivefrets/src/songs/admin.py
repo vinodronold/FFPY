@@ -11,10 +11,10 @@ class SongAdmin(admin.ModelAdmin):
         SongChordInline,
     ]
 
-    def save_model(self, request, obj, form, change):
-        if not change:
-            obj.created_by = request.user
-            obj.save()
+    # def save_model(self, request, obj, form, change):
+    #     if not change:
+    #         obj.created_by = request.user
+    #         obj.save()
 
 
 admin.site.register(Album)

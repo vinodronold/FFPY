@@ -171,6 +171,11 @@ FF_EXTRACT_CSV = FF_EXTRACT_PATH + FF_EXTRACT_YTID + \
     '_vamp_' + FF_EXTRACT_VAMP.replace(':', '_') + '.csv'
 FF_EXTRACT_MAX_DURATION = 480
 
+FF_YT = {
+    'API_URL': 'https://www.googleapis.com/youtube/v3/search',
+    'API_KEY': 'AIzaSyBreuZkq35jobxJekOwTMlKTEdUXfIJ17w',
+}
+
 # Celery settings
 CELERY_BROKER_URL = 'amqp://{user}:{password}@{hostname}/{vhost}/'.format(
     user=os.environ.get('RABBITMQ_DEFAULT_USER'),

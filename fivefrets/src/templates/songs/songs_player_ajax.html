@@ -1,5 +1,5 @@
-<div id="player_process_status{% if song.process_status == 0 %}_success{% endif %}" class="ui inverted segment">
-    {% if song.process_status > 0 %}
+<div id="player_process_status{% if song.process_status == 0 or song.process_status >= 3 %}_success{% endif %}" class="ui inverted segment">
+    {% if song.process_status == 1 or song.process_status == 2 %}
         {% include "utils/loading_segment.html" %}
     {% endif %}
     <div class="ui basic segment">
@@ -11,11 +11,17 @@
     {% include "songs/player_controls.html" %}
     <div class="ui basic segment chords">
         <div class="ui grid">
-            {% for chord in songchord_list %}
-                <div class="four wide tablet two wide computer column">
-                    <div class="ui center aligned segment chordslist" id="ffchordlist" data-chordidx="{{ forloop.counter }}" data-chordid="{{ chord.chord.name }}" data-chordtyp="{{ chord.chord.typ }}" data-postn="{{ chord.beat_position }}"></div>
-                </div>
-            {% endfor %}
+            {% if song.process_status == 0 %}
+                {% for chord in songchord_list %}
+                    <div class="four wide tablet two wide computer column">
+                        <div class="ui center aligned segment chordslist" id="ffchordlist" data-chordidx="{{ forloop.counter }}" data-chordid="{{ chord.chord.name }}" data-chordtyp="{{ chord.chord.typ }}" data-postn="{{ chord.beat_position }}"></div>
+                    </div>
+                {% endfor %}
+            {% elif song.process_status == 3 %}
+                {% include "songs/songs_player_error.html" with err_message="We cannot process a song with more than 8 minutes."%}
+            {% elif song.process_status == 4 or song.process_status == 5 %}
+                {% include "songs/songs_player_error.html" with err_message="Cannot process this song now. Try again later."%}
+            {% endif %}
         </div>
     </div>
     <div class="ui basic segment">
