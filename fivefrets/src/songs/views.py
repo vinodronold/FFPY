@@ -9,7 +9,7 @@ from .mixin import GetSongContextMixin
 
 class SongHomeView(ListView):
     template_name = "songs/songs_home.html"
-    queryset = Song.objects.all().order_by('-id')[:20]
+    queryset = Song.get_success().order_by('-id')[:12]
 
 
 class SongHomeRedirectView(RedirectView):
@@ -18,7 +18,7 @@ class SongHomeRedirectView(RedirectView):
 
 class SongListAllView(ListView):
     template_name = "songs/songs_list_all.html"
-    queryset = Song.objects.all().order_by('-id')
+    queryset = Song.get_success().order_by('-id')
 
 
 class SongBrowseView(ListView):

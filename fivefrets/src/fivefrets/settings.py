@@ -172,7 +172,9 @@ FF_EXTRACT_CSV = FF_EXTRACT_PATH + FF_EXTRACT_YTID + \
 FF_EXTRACT_MAX_DURATION = 480
 
 FF_YT = {
-    'API_URL': 'https://www.googleapis.com/youtube/v3/search',
+    'API_URL': 'https://www.googleapis.com/youtube/v3/',
+    'SEARCH': 'search',
+    'VIDEO': 'videos',
     'API_KEY': 'AIzaSyBreuZkq35jobxJekOwTMlKTEdUXfIJ17w',
 }
 

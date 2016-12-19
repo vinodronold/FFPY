@@ -8,7 +8,9 @@
             <h5 class="ui inverted header">{{ song_meta }}</h5>
         {% endif %}
     </div>
-    {% include "songs/player_controls.html" %}
+    {% if song.process_status == 0 %}
+        {% include "songs/player_controls.html" %}
+    {% endif %}
     <div class="ui basic segment chords">
         <div class="ui grid">
             {% if song.process_status == 0 %}
@@ -19,20 +21,22 @@
                 {% endfor %}
             {% elif song.process_status == 3 %}
                 {% include "songs/songs_player_error.html" with err_message="We cannot process a song with more than 8 minutes."%}
-            {% elif song.process_status == 4 or song.process_status == 5 %}
+            {% elif song.process_status >= 4 %}
                 {% include "songs/songs_player_error.html" with err_message="Cannot process this song now. Try again later."%}
             {% endif %}
         </div>
     </div>
     <div class="ui basic segment">
-        <div class="ui mobile stackable equal width grid">
-            <div class="five wide column">
-                <div class="ui embed" id='ff_ui_embed' data-source="youtube" data-id="{{ song.youtube }}" data-placeholder="https://i.ytimg.com/vi/{{ song.youtube }}/hqdefault.jpg"></div>
+        {% if song.process_status == 0 %}
+            <div class="ui mobile stackable equal width grid">
+                <div class="five wide column">
+                    <div class="ui embed" id='ff_ui_embed' data-source="youtube" data-id="{{ song.youtube }}" data-placeholder="https://i.ytimg.com/vi/{{ song.youtube }}/hqdefault.jpg"></div>
+                </div>
+                <div class="column">
+                    {% include "utils/chord_diagram.html" %}
+                </div>
             </div>
-            <div class="column">
-                {% include "utils/chord_diagram.html" %}
-            </div>
-        </div>
+        {% endif %}
     </div>
     {% if song.lyric %}
         <div class="ui basic segment">

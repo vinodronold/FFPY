@@ -5,4 +5,4 @@ from songs.models import Song
 
 class ProfileHomeView(ListView):
     template_name = "userprofile/userprofile_home.html"
-    queryset = Song.objects.all().order_by('-id')[:20]
+    queryset = Song.get_success().order_by('-id')[:20]

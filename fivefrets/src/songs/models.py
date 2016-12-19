@@ -42,6 +42,7 @@ class Song(models.Model):
         (3, 'MORE THAN SETUP DURATION'),
         (4, 'YOUTUBE ID DOWNLOAD ERROR'),
         (5, 'BEAT PROCESS ERROR'),
+        (6, 'Invalid Youtube ID'),
     )
     youtube = models.SlugField(max_length=100)
     name = models.CharField(max_length=100, default='PROCESSING . . .')
@@ -60,6 +61,9 @@ class Song(models.Model):
 
     def __str__(self):
         return str(self.name)
+
+    def get_success():
+        return Song.objects.filter(process_status__exact=0)
 
     def get_songchord_list(self):
         return SongChord.objects.filter(song_id__exact=self.id)
