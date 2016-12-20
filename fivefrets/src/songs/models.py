@@ -72,7 +72,7 @@ class Song(models.Model):
         return SongChord.objects.filter(song_id__exact=self.id).exclude(chord_id__exact=25).order_by('chord_id').distinct('chord_id')
 
     def get_song_meta(self):
-        info = ''
+        info = str(self.bpm) + ' bpm ' + ('| ' if self.album else '')
         if self.album:
             info = '%s | ' % (self.album)
         if self.composer:
