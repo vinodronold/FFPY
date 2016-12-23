@@ -1,11 +1,12 @@
 from django.core.urlresolvers import reverse_lazy
+from django.core.paginator import InvalidPage
 from django.http import Http404
 from django.shortcuts import redirect
 from django.views.generic import DetailView, ListView, RedirectView
 from celery import chain, group
 from chords.tasks import download, extract, convert_to_chords, delete_all_files
 from .models import Song
-from .mixin import GetSongContextMixin
+from .mixin import GetSongContextMixin, SongPaginationMixin
 
 
 class SongHomeView(ListView):
@@ -17,12 +18,12 @@ class SongHomeRedirectView(RedirectView):
     url = reverse_lazy('song-home')
 
 
-class SongListAllView(ListView):
+class SongListAllView(SongPaginationMixin, ListView):
     template_name = "songs/songs_list_all.html"
     queryset = Song.get_success().order_by('-id')
 
 
-class SongBrowseView(ListView):
+class SongBrowseView(SongPaginationMixin, ListView):
     template_name = "songs/songs_list_all.html"
 
     def get_queryset(self):
