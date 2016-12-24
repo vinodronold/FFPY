@@ -2,7 +2,7 @@
     {% if song.process_status == 1 or song.process_status == 2 %}
         {% include "utils/loading_segment.html" %}
     {% endif %}
-    <div class="ui basic segment">
+    <div class="ui basic segment" id="play_song">
         <h1 class="ui inverted header">{{ song.name }}</h1>
         {% if song_meta %}
             <p class="ui tiny inverted header">
