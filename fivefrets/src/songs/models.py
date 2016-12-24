@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.core.urlresolvers import reverse
 from django.db import models
 from chords.models import Chord
 
@@ -80,6 +81,9 @@ class Song(models.Model):
             info = info + \
                 ' | '.join(singer.name for singer in self.singers.all())
         return info
+
+    def get_absolute_url(self):
+        return reverse('song-detail', kwargs={'slug': self.youtube})
 
 
 class SongChord(models.Model):

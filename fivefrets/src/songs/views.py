@@ -2,10 +2,11 @@ from django.core.urlresolvers import reverse_lazy
 from django.core.paginator import InvalidPage
 from django.http import Http404
 from django.shortcuts import redirect
-from django.views.generic import DetailView, ListView, RedirectView
+from django.views.generic import DetailView, ListView, RedirectView, UpdateView
 from celery import chain, group
 from chords.tasks import download, extract, convert_to_chords, delete_all_files
 from .models import Song
+from .forms import SongForm
 from .mixin import GetSongContextMixin, SongPaginationMixin
 
 
@@ -30,6 +31,19 @@ class SongBrowseView(SongPaginationMixin, ListView):
         return Song.objects.filter(name__istartswith=self.kwargs['StartWith']).order_by('-id')
 
 
+class SongUpdateView(UpdateView):
+    template_name = "songs/song_update.html"
+    model = Song
+    slug_field = 'youtube'
+    form_class = SongForm
+
+    def get(self, request, *args, **kwargs):
+        if request.user.is_authenticated():
+            return super(SongUpdateView, self).get(request, *args, **kwargs)
+        else:
+            return redirect('/accounts/login/?next=%s' % request.path)
+
+
 class SongPlayerView(GetSongContextMixin, DetailView):
     model = Song
     template_name = "songs/songs_player_view.html"
@@ -44,8 +58,6 @@ class SongPlayerView(GetSongContextMixin, DetailView):
         return self.object
 
     def get(self, request, *args, **kwargs):
-        print('kwargs[super(SongPlayerView, self).slug_url_kwarg]',
-              kwargs[super(SongPlayerView, self).slug_url_kwarg])
         try:
             self.object = self.get_object()
         except Http404:

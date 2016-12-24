@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% load semanticui %}
+{% load i18n %}
+
+{% block content %}
+    <div class="ui basic segment">
+        <div id="player_process_status{% if song.process_status == 0 or song.process_status >= 3 %}_success{% endif %}" class="ui inverted segment">
+            <div class="ui basic segment">
+                <h1 class="ui inverted header">{{ song.name }}</h1>
+            </div>
+            <div class="ui basic segment">
+                <p class="ui tiny inverted header">
+                    Add Lyrics
+                </p>
+            </div>
+            <div class="ui basic segment">
+                <form method="POST" action="{% url 'song-edit' song.youtube %}" class="ui form">
+                    {% csrf_token %}
+                    {{ form|semanticui }}
+                    <a class="ui negative button" href="{{ song.get_absolute_url }}"/>Cancel</a>
+                    <input class="ui positive button" type="submit" value="Save"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
