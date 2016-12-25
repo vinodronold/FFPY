@@ -2,7 +2,7 @@
 
 {% load semanticui %}
 {% load i18n %}
-
+{% block head_title %}Update Lyric{% endblock %}
 {% block content %}
     <div class="ui basic segment">
         <div id="player_process_status{% if song.process_status == 0 or song.process_status >= 3 %}_success{% endif %}" class="ui inverted segment">

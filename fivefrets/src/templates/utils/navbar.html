@@ -11,10 +11,13 @@
       <i class="user icon"></i>{% user_display user %}
   </a>
   <a class="item" href="{% url 'account_logout' %}">
-      <i class="sign out icon"></i>logout
+      <i class="sign out icon"></i>Sign Out
   </a>
 {% else %}
   <a class="item" href="{% url 'account_login' %}">
-      <i class="sign in icon"></i>login
+      <i class="sign in icon"></i>Sign In
+  </a>
+  <a class="item" href="{% url 'account_signup' %}">
+      <i class="edit icon"></i>Sign Up
   </a>
 {% endif %}

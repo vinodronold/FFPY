@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>fivefrets.com | Home</title>
+        <title>{% block head_title %}{% endblock %}</title>
         <!--<script src='{% static "js/lib/modernizr-custom.js" %}'></script>-->
         <link rel="stylesheet" href='{% static "css/semantic.min.css" %}'>
         <link rel='stylesheet' href='{% static "css/site.css" %}'/>
@@ -39,22 +39,7 @@
                 </div>
             </div>
             <div class="ui basic segment"></div>
-            <footer>
-                <div class="ui center aligned fluid container">
-                    <div class="ui inverted segment">
-                        <div class="ui inverted relaxed list">
-                            <a class="item">Home</a>
-                            <a class="item">About</a>
-                            <a class="item">Frequenctly Asked Questions</a>
-                            <a class="item">Chord Recongniton</a>
-                            <a class="item">Facebook</a>
-                            <a class="item">Twitter</a>
-                            <a class="item">Disclaimer</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
+            {% include 'utils/footer.html' %}
         </div>
         <script src='{% static "js/require.js" %}' data-main='{% static "js/main-chords.js" %}'></script>
         <script src='{% static "js/require-config.js" %}'></script>

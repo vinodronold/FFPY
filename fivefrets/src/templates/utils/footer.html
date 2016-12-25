@@ -1,0 +1,16 @@
+{% load flatpages %}
+{% get_flatpages as flatpages %}
+<footer>
+    <div class="ui center aligned fluid container">
+        <div class="ui inverted segment">
+            <div class="ui inverted relaxed list">
+                <a class="item" href="{% url 'main-home'%}">Home</a>
+                <a class="item">Facebook</a>
+                <a class="item">Twitter</a>
+                {% for page in flatpages %}
+                    <a class="item" href="{{ page.url }}">{{ page.title }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</footer>
