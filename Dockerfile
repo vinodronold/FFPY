@@ -17,8 +17,8 @@ RUN apt-get update && apt-get -y upgrade && apt-get install -y --no-install-reco
     && pip3 install psycopg2 \
     && pip3 install django \
     && pip3 install celery \
-    && pip3 install django-celery-results \ SQLAlchemy
-    && pip3 install djangorestframework \
+    && pip3 install -U https://github.com/eventlet/eventlet/archive/f266be30f5c3ff1889e9ac3f0bad698a49d40e99.zip \
+    && pip3 install dnspython \
     && pip3 install django-allauth \
     && pip3 install django-semanticui-form \
     && pip3 install numpy \

@@ -28,7 +28,7 @@ class SongBrowseView(SongPaginationMixin, ListView):
     template_name = "songs/songs_list_all.html"
 
     def get_queryset(self):
-        return Song.objects.filter(name__istartswith=self.kwargs['StartWith']).order_by('-id')
+        return Song.get_success().filter(name__istartswith=self.kwargs['StartWith']).order_by('-id')
 
 
 class SongUpdateView(UpdateView):

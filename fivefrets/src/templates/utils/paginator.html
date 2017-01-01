@@ -1,0 +1,11 @@
+{% if paginator.num_pages > 1 %}
+    <div class="ui basic segment">
+        <div class="ui tiny pagination inverted menu">
+            {% for page in paginator.page_range %}
+                <a class="{% if page_obj.number == page%}active{% endif %} item" href="?page={{ page }}" }}>
+                    {{page}}
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}
