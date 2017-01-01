@@ -17,7 +17,9 @@ services:
     ports:
       - "5672:5672"   # we forward this port because it's useful for debugging
       - "15672:15672" # rabbitmq management plugin
+
   app:
+    restart: always
     env_file:
       - app.env
       - db.env
@@ -40,6 +42,7 @@ services:
 
   # Celery worker
   worker:
+    restart: always
     env_file:
       - app.env
       - db.env
@@ -55,3 +58,17 @@ services:
       - rabbit
     depends_on:
       - rabbit
+
+  nginx:
+    restart: always
+    image: nginx:latest
+    hostname: nginx
+    container_name: ng01
+    ports:
+      - "80:80"
+    volumes:
+      - ./fivefrets/src:/src
+      - ./nginx:/etc/nginx/conf.d
+      - ./fivefrets/static:/static
+    depends_on:
+      - app
