@@ -38,3 +38,10 @@ NEED TO CHECK : myproject/settings.py @ https://www.syncano.io/blog/configuring-
 
 
 rm -rf ~/.local/share/Trash/*
+
+------------------------------------------------------------------------------------------------------------
+DIGITAL OCEAN:
+------------------------------------------------------------------------------------------------------------
+adduser fivefrets
+groups fivefrets
+usermod -aG sudo fivefrets
