@@ -1,6 +1,0 @@
-#pattern  filter=crypt diff=crypt
-fivefrets/**/*.js filter=crypt diff=crypt
-fivefrets/**/*.css filter=crypt diff=crypt
-**/*.env filter=crypt diff=crypt
-fivefrets/src/chords/extraction.py filter=crypt diff=crypt
-fivefrets/src/chords/tasks.py filter=crypt diff=crypt

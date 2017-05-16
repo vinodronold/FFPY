@@ -1,72 +1,101 @@
-U2FsdGVkX1+kVsw4Lk0/YL8PAvYM0+aiLWDc5Hla2RzM0h2s8ZnG0FB+SSAI+TwD
-x1vOhoQEn7IosmXOwP39jGZWthM6k+K46rybtRt4/VExgMd6THCAOt7iujxyONRe
-Ao2qUmkVYPU6uJFSKZ4Hl8Xx0N8KGzEwN7vtkhWugK8/q3lyapwW315qHaITz9Dh
-YnuLH87pYiRvHYsIpOYsvVqyHd5xTnHjdEPsnxtzGO+m8wPPWVoKgk16AvTDbhXV
-kKg4lq3Y1wjNsWoqh39uIpazphLBr8FEx8bMGDDvgqF1H+0x/zK8EigaVBcahcqs
-T+Qk7U6FWM0lPD/Kgb+i4++UDDBbW8kGdhEwNEJXyNx01KMZLAjgerwk7LJnk/yL
-n9uXl/NM8oUBqa0ZyERFHKXCmkclqh7V3e1hHvxTobwhOStGLkIDOw576e67DKgF
-2S/97Q0kJjMjkam/xaMTFjj4dK8BAcaRZGKMn7C84iX1hTPoBdUbUgNqW4BL3Kau
-7FHAzeHZm9n22kEUX3fdjibXrIWl37/NPdMunvonRinjUB+P+bomBH2LUCjypVoG
-OL7V2xUlXQvE7Gqi7C8XVSJ1usAvqe81AMYyn+lo/SMpwhqG9T23o3xhR8o0SUtg
-McQ0AjDtcYLME4RqZu5ebzpvxg7IBTFbXgUtSMyojPhGdvMaNW4e0QMAvMoN1ZRT
-83mDBv41onpmnrMRZ1fDdz4Rlwg4rSto22BZmB9Af3/P9abKqSobnyLUbsUs6GiE
-bt+aZakQZCn0AfBJVYESyND/fSenZJxpYl3vj4T9d5cwQ6GueTMkOhSOY+S32mAB
-h67gVkQeSWXPCj6+RI2CA874ODxdGmSdRKMxqks2otTokSxm5It8scJ5KoSCJOby
-Pmhw3smrrzo4KmgqoVZRwYZF239iD720KmxP3hSQfVNp1nMj0sfKgpNTYzjxH7WS
-gdzZdNpHc4gpS0yPWDErAhPizHoZ6dRNRDGam1jl4DPcZpPH5dFSGHMD62odBlel
-Mxpx0Ivpy8Vps+zRg2kHakhcbTivRHbHUyD7g6XXDTNq1WPeJU8TywJ4s43K/PCp
-MuxnXamKwVNEu7fo0jlKOo2r6hRPm9UAIr+vP4CPy4L4EhQJk9c4BiLGlNjGTUUS
-dLmod2Botu2Yeru24IR5A2Mhk68f6ISjv40V6nx3umredcjfdB+gyBMiFLsUYkzt
-U17nhYbUP9IYPF7Vezu/3aKB2WCNy1C/eBtvieVretfUJWD2yIkVYHGG0CqxjiDU
-L+IoBHKwNyhinN5dxKqhs/vKTQN5cjPwYKNLijoqPsOyE8VjhNO7jpAohScQIG7a
-zGljQmIn5NsDg93taq3sp41baKZvWTwsanm7joJO/PdJ2No0yag/V9G/0FPBXLw2
-sc7Wx2dBOIfZTJXcc53nqdNCZCg+v2hn/GR7BuEK4E803mVv76PVsmYM4Hqe1ms6
-WIjShoZt/wetewCNoI5lF4YRJGDdoAvDZcYPkbse5NV8ThU9r1hY4GjaEJPWwTBQ
-5f5xnGCR+8xJi9eQpdhurQyuw8ZzEXF2m6aMoe98+Q4VDLQgOC2lMVsmGWL1f6AZ
-7fKNjNTU5sATqTwmB+PMwLq9kNIc11Pghv9R4iMkYOwnzPZyfKxgI8yTfMt4AZD2
-NTaUlEB0RWOsEY15IVqvXRFmPGeXlnUtfuyZECv71ieopwFyaV3sot3joUJe4vN+
-q5On0ug+qT0v3cViSbZuYUrCHexN194pI1QH36mvEjP83aIj+UsXbUfb3184r6qZ
-Jjj3+tyolGsgs6FQLSKeVJGTGVrA9/3IQFMXFcL9aLs6XIckpk38Qpl7KSiOkLIZ
-JNFA9WXMfUjRTlLKhJb3I4+8GlhlK3sCv4R+Ed+ARmEe+1M/twZqa7IivYsMPC2p
-re0jaoXq5tciHAgTBtB3+qKY4XmiYRrz6whizeGODs5EclPgC5NMZ6hUeNcoWBIy
-bOaSimyCUmtEUtMmxd3ARbwjAHuQxS/oUidnmh45JWv9Ana5C1Yb4kCiuFMk09g+
-XHQGIjAh0t9JMmVU/3DnAyaH4RuWSETQkdHLc+9PKTP0J7BMNS3LnQ9XZynU05gf
-Vip5UkHDWA3ofHzsA1RBVVx8ppBCcoYm7HresRArRFmbXx9EcnfEKfV9cB2/+EYi
-tWKKGL++0/GehCUNcEd1XwRFvU01O6AJRb0qI/kFKWnTYV/2Sv17y7IO2VPNujHs
-xGqCSCCvCHK1QK30aX7/IELcIcNANH2zQhK1Rv1vkfzzNleDNT5x2WZ1Q+NjAsw9
-4+8b+e0QPPAGTqO/7snn8KVCa2XhCuKBAsI4jW5+NDLpTEgSrqqh2tyLCCia2KIu
-oawu4UQAHoE0FnO+5OaThYF3NX6WRb06eOxbF9HKxLaOy3qZUGGrc9Pm0W21fiNz
-oXnMTkCajpPlscgJ2sejB6zx6r7PFScVSaMlVplXKKPX2y6EcfQeq9fkYinM41t+
-Ft/Bl0OjZqKnWzSajuroRtow6PXOiVkqxajzUvc+YPqmqS29nC+HJNc0n6cn0Rd3
-pUTNxSxbHZqswkBsSpD/GDn/mUrbsRmnQ/8/JNId1Bu+fV283l9OdYdl5i6/Xq5/
-vjaxyYHvR4yMa4X++sVmwaJ0lNW4kfOYldoSkoeMLd5D/I9n7ASrqyXpHu0ytZVK
-wXkqkrB6OrsnKPxL/XcXcdkTCrGBRHaCHuFGT5x3kCU+JNL/Igotd3K9x6ZXWd9Z
-AWsbDyGazn0JO+NTreq1SysyoeTvG31nuNPt1jyVV+wYbJVIs2ppzhe9O7y8R5cj
-WTut/zTu5zgGrzLYZ2yp7yzdN4/T7BUYU/r5Yhok0eBhe5jPWXASCJ8GlXemCpho
-yp/tf4/+vgutjEfHuVbfXwGnWoLzp65mrwK2vdrcBAZ/L0PKKzMMkmdpe1UjAZNp
-0VbokAvfRQ9wfJhN8J+ZwPRqYadPCU5zzjsnjL9gsFt1Zz5duuNHo2BSMTR9iWQu
-v6/KdefRzW3axXiys4B8zZ34R3PRu7eRiISw0euGAIbt6qd/QIIURQERGS7hwq7M
-ejniR7xun8UkMuM01B8xvvW3OxJPZemooH2Ox2B8iUlqF/AZAArpb1q+DP4jwgvr
-ErQFqXa5D3NsxvxFfjYf452XZH/GEqFvqtG7clVRgiqi6NsZvkLe6Gh2Qt0NywlA
-Qw5kEfiqV9n5gjOpfy5y1fBhWSuMUGI1Op52rW+28tOoi/FeGkeyd6xmcXD3vZlO
-VhP608AGtynzjf+XfoS1MCAxfVYXyNB0y530YKeIcdkE12EpzLE8JhmZbTxzRgzN
-MVQCoZkHlX2f3S/HseXJMUQDlrREo2ZQoI4uScMIx1n2bDqQfefpJ3Z8CxAkDOHB
-wv830Ro4X07TzrXHmgiotxzjkylD9gJKGa3E35qzUAe6a72NvDKwFzzbMdXIWcZv
-RK+i0hFglRRdrLoqOto876YMOvJY8UsCNr7gX6ef5cagxbTrl6WsXCbUcvw9DOQM
-7Rdj8ADNgiGERbt5UXRG1/BLS5DT2pbsuJN5/t3QW5zpl4NG2uOGMBDapL2KHuOD
-xo3mXHePAqdTjvkWsOlhpILYA/MPIL4lNGlUTCgyT47oCy2wLEcrbDxTWNp8IsMD
-WQUmNS5XKWq+hXW13fHrA1eg9/MAxRCZvqdh5nd2bQREnRjMw3QtOXcZjnWZNVX8
-xA8lnseC+osQ4Xd+NoeSROPolbk0+iwG5bdiu3H6dNIRbUYQmTFo2BmOn5ucb5Cu
-N5P85cutpC/lt5gGEUe96SD8HqmwEMsC6mhOTega/enwrkCPk9o47JBYzyZ8NCyI
-vX6JRVo9NPP8PMUvWgIn8Lvw2DmfqGeLj6QFAEDhMIfxpCvB1JMNFCoc6qnzDJM7
-9rT/1HbEbpVfsIuHZitaKzXNSyI83IhEGoymcWlQn/C0KeuAmhfs6Wf+ndnTqtdB
-YYEtD/Hafc1mkBPn2JQ4tjxtDY2kLrfw36h25SJwahuzLlp6tjcWwfAan52YGzOH
-/vpSOtjJbihty3Sc0j4vhVyfkdxZCBKGExQ80U9ENdhdL1SR77n8r0QjP2W/VTMM
-oHkPCJYH4oQq9e4Ityw9uafjnvw6P7xuh8lkteYV/lgxbgmgMXwKnkahakFAi8Kr
-kd2tx6tnWkzjPor3U98+bp2tUdnulT+bxjm/ZaFfiPrtyAMoxV6gXOFJpI5AdDop
-OCjscfqdOqh/tAU4Oh51W2DJIjbN3Dihb1hYxIlEvBZNTKuNHqls09/zzJsWQ8ln
-LKzad2KrRIGdezIgXcUtl18xHCTcGVvfNUdvrGl7Z7P2P3vXoP6r5E9ofq2HTakt
-uxkMKnmzHXLfDcy3SC03o7z9scTBAsiIaY17OqtEQi664Ci4Rxhid0lXAKGSNlwF
-gt4/71U5VgjQE+YhSUVzudBKHCCheNuEqFsttc57V7Z71fAmIlUoXVDUBy/LAmuA
-VEItQTNL2SWLelNBBmM5F/gRPeO/QUtSW+HTulaTe52Z4f8pwGuMpE2XcyCIzm28
-Ivp0pYBcuRBHbHKjeKOkcS3nihYLT3FypBGJleqRnwjrhdxB+Kjjj3NwIHFZn6wS
+from __future__ import print_function, unicode_literals
+from fivefrets.settings import FF_EXTRACT_PATH, FF_EXTRACT_EXT, FF_EXTRACT_VAMP
+from os import remove
+from subprocess import check_call
+from csv import reader
+import youtube_dl
+import librosa
+# import traceback
+# from chords.models import *
+
+
+class features:
+    """
+        return_process_status
+        ---------------------
+        0  - SUCCESS
+        1  - DURATION MORE THAN 8 MINUTE (480 sec)
+        2  - DOWNLOAD ERROR
+    """
+
+    def __init__(self, yt_id):
+        self.id = yt_id
+        self.title = ''
+        self.filepath = '/tmp/'
+        self.ext = 'wav'
+        self.vamp_plugin = 'nnls-chroma:chordino:simplechord'
+        self.filenames = {
+            'audio_path': self.filepath + self.id + '.' + self.ext,
+            #'hpss_audio_path': self.filepath + self.id + '_hpss.' + self.ext,
+            #'csv_path': self.filepath + self.id + '_hpss_vamp_' + self.vamp_plugin.replace(':', '_') + '.csv',
+            'csv_path': self.filepath + self.id + '_vamp_' + self.vamp_plugin.replace(':', '_') + '.csv',
+        }
+        self.return_process_status = 0
+
+    def download(self):
+        ydl_opts = {
+            'format': 'bestaudio/best',
+            'extractaudio': True,
+            'audioformat': self.ext,
+            #'outtmpl': '%(id)s.%(ext)s',
+            'outtmpl': self.filepath + '%(id)s.%(ext)s',
+            'noplaylist': True,
+            'quiet': True,
+            'postprocessors': [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': self.ext,
+                'preferredquality': '128',
+            }]
+        }
+        ydl = youtube_dl.YoutubeDL(ydl_opts)
+        with ydl:
+            try:
+                result = ydl.extract_info(self.id, download=False)
+                self.title = result['title']
+                if (int(round(float(result['duration']))) > 480):
+                    self.return_process_status = 1
+                    return
+                else:
+                    ydl.download([self.id])
+            except Exception as e:
+                self.return_process_status = 2
+                print("Can't process yt_id = ", self.id,
+                      " %s\n" % traceback.format_exc())
+
+    def extract(self):
+        result = check_call([
+            'sonic-annotator',
+            '-d',
+            'vamp:' + self.vamp_plugin,
+            self.filenames['audio_path'],
+            '-w', 'csv',
+            '--csv-force',
+            '--force',
+        ])
+
+    def convert_to_chords(self):
+        try:
+            audio, sample_rate = librosa.load(self.filenames['audio_path'])
+            tempo, beat_frames = librosa.beat.beat_track(
+                y=audio, sr=sample_rate)
+            beat_times = librosa.frames_to_time(beat_frames, sr=sample_rate)
+            self.extract()
+
+            with open(self.filenames['csv_path'], 'r') as f:
+                chords = list(reader(f))
+            print(chords[:10])
+
+        except Exception as e:
+            self.return_process_status = 3
+            print("Can't process yt_id = %s" % self.id)
+            # print("Can't process yt_id = ", self.id,
+            #      " %s\n" % traceback.format_exc())
+
+    def delete_all_files(self):
+        for k, _file in self.filenames.items():
+            remove(_file)
+
+    def process_and_get_bpm(self):
+        self.download()
+        self.convert_to_chords()
+        self.delete_all_files()

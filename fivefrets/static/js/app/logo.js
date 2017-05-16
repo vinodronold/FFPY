@@ -1,24 +1,32 @@
-U2FsdGVkX1+FXIdiDApVgMROPaqjY/GEyJm9k7rTgZ1yqC3PbHKf1YCvvM6JZ4EP
-RHioxjMC1ux5oXXFnH9Y1xXRz7fBT/h/SpV0vbsYpLHpaUtpgpqYetP5cZzd2rf+
-DY7vs3wwOtzo0dP/fx8uNnH1YY8btzjdU4Y4Y58oVzDT1/U/95Vc/QsL4WKYhVdC
-rHO0V2dvngSCirqq6Jtyxxl8Ig+Mi3jaeZ3AI/ibMD3AN8NMwQDA7TSBasEOwv+v
-EVJbFWscACtMI538cwkhEPXgNmQ2x/mV0hBe3iDitKlzDc8tQ2PcvykkzfezuS52
-CeseKUoGw1Fm4xFKK8VXVydylya0nDRe+JUDRjJGY2CrQFdEKOxqqkeEXxTUac0I
-UaF3HfDjt5FmzMGUvtaBJvsaULXHkosOalBGS71GZQzkwVr/wrFGr9xXoQ6SDk5Y
-aTDY/9oq+ztZOeJOAetbY0vevAxK2N4xsceFBLI4vVvy77jnSJYogZfpwMS+z640
-0GXo0xNQvrVrDIvM8CYQvUH3aHcaNhtxg6W+l3pTCy8UNoZ3K1abuGDeEHAHpRAJ
-C+4uEVe/fw3l/YK4Ik1/xJ+XewGcWqfg3zu+od75Ehw0sSUq1Z/p4qJkHXYZCi/x
-fTAgjhhlv8hMaWqje56Qbg96nHQMnw9d5EEPxwodqZ1F4GohvXeT9cIk7CXUuMNU
-yBabx0TtT8wk8SkFyviE1mxO0ssCKPgQf1kb2Uhaw2EaIgOgc6wI7HOVSm0oi0iv
-AXxs9hAlHBFWTMIWjzA7m01VHbDtqVtHsy5/ebpC3z0uwsmN/+IutSEOC8Qoc+Yc
-SUlySCVy/ismr92Gv5syxeR8JFrT+9paqU+eIL5TmnpmAFu5TGs3jxNu+5rUoIfo
-ivLu3enYuDSGRFp7CPTBf/qJSHEfQEqYMlytVM+gObbdH00Voy7c0Orau+aoXqb9
-77H+axtwvyj36Xxil5JheCnkyDlqwYCZXuZrQy5wbmmUgxCaNo9MKM5MdlJmbUs4
-xJIc+TDIiup2z4JYFK/I4deYnUGrXV2CG3BamYswgQBxbewrSX4kbOSEhQHGouAW
-wzcir++1WPutXv9XWkH5w5OsJ+n6srHB1rVTLL5XzXi43X8XglIUlku7ZPFFyvVD
-WiVPL311Nz+tG4Nq491GtunBYF/yiDRW3GwqDbh85DlZCshIiKhuLPm3Y1Ia27G5
-uH4k9w08+d9V6ux3OUBe4DaEEd6Re5/ti/XRTqqPOGmwQERHivpWLk0iatjHn9mP
-pByXTqpnAzwzeMZOVEr2jMjCyUR/43GIaWUTu9F3Z1ERQgpYkKS0E9WCClOo2rC5
-1HNLV7ARM2xRVBt0VQabkV5Kj5iYwVcosncuFNnSbWoJ94gkp6PoXE1G4zJkGWD+
-w8TswL8GC7WrtvYSu29+MlQ6luaNc6uv/CdNyp2NY5E2S9IN1b+8hO4zql2sU3rA
-9kCxUkPwlHhKtEVglCdOcl6ySFYUg0syT8nBpMN8cVo=
+define([
+    "jquery", "raphael"
+], function($, ra) {
+    "use strict";
+
+    var _logo = function(_id) {
+            var _paper = new ra(_id, 110, 55);
+            var _frets = _paper.set();
+            _frets.push(_paper.rect(5, 5, 100, 25, 2), _paper.path("M5 10L105 10M5 15L105 15M5 20L105 20M5 25L105 25M27.82 5L27.82 30M46.57 5L46.57 30M66.57 5L66.57 30M87.66 5L87.66 30"), _paper.circle(56.57, 17.5, 0.75), _paper.circle(18.91, 17.5, 0.75));
+            _frets.attr({stroke: "#ffffff"});
+            var _brand = _paper.text(55, 40, "f i v e f r e t s")
+            _brand.attr({stroke: "#ffffff", 'stroke-width': 0.5, 'fill': '#ffffff', 'stroke-opacity': 0, 'font-size': 16});
+        },
+
+        _select_id = function() {
+            $("div[id^='fflogo_']").each(function() {
+                _logo($(this).attr('id'));
+            });
+        },
+
+        _apply_center_class = function() {
+            $("div[id^='fflogo_'] > svg").addClass("ui centered image");
+        },
+
+        draw = function() {
+            _select_id();
+            _apply_center_class();
+        };
+
+    return {draw: draw};
+
+});

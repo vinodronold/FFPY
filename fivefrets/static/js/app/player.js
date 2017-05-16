@@ -1,151 +1,202 @@
-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
-I5i3QNtwHxf6Go/zNpc1SA==
+define([
+    "jquery", "semantic_ui"
+], function($, ui) {
+    "use strict";
+
+    var _player,
+        _playing = false,
+        _ffchordlist = {},
+        _ffchordlist_len = 0,
+        _chordTransition_TO,
+        _seek_to_postn_TO,
+        _CurTime,
+        _startTime = 0,
+        _startPos = 0,
+        _chordInRow = 8,
+        _activeChord = 'orange inverted',
+
+        _embed_YT = function() {
+            $('.embed > iframe').attr('id', 'ff_ytplayer');
+            $.getScript('//www.youtube.com/iframe_api');
+            window.onYouTubeIframeAPIReady = function() {
+                _player = new YT.Player('ff_ytplayer', {
+                    events: {
+                        'onReady': _onPlayerReady,
+                        'onStateChange': _onPlayerStateChange
+                    }
+                });
+            };
+            $('.ui.segment.chords').scrollTop(0);
+            window.location.hash = "#play_song";
+            $(".chordslist").each(function(index) {
+                var _ffchordlist_item = {};
+                _ffchordlist_item.curr = $(this);
+                _ffchordlist_item.curr.on('click', _seek_to_postn);
+                if (index > 0) {
+                    _ffchordlist_item.prev = _ffchordlist[Number($(this).data('chordidx')) - 1].curr;
+                } else {
+                    _ffchordlist_item.prev = null;
+                }
+                _ffchordlist[$(this).data('chordidx')] = _ffchordlist_item;
+                _ffchordlist_len++;
+            });
+        },
+
+        _setting = function() {
+            $.fn.embed.settings.sources = {
+                youtube: {
+                    name: 'youtube',
+                    type: 'video',
+                    icon: 'video play',
+                    domain: 'youtube.com',
+                    url: '//www.youtube.com/embed/{id}',
+                    parameters: function(settings) {
+                        return {
+                            autohide: !settings.showUI,
+                            autoplay: settings.autoplay,
+                            color: settings.colors || undefined,
+                            hq: settings.hd,
+                            jsapi: settings.api,
+                            modestbranding: 1,
+                            fs: 0,
+                            rel: 0,
+                            showinfo: 0,
+                            playsinline: 1,
+                            enablejsapi: 1
+                        };
+                    }
+                }
+            };
+        },
+
+        _embed_player = function() {
+            $('.ui.embed').embed({onDisplay: _embed_YT});
+        },
+
+        _set_startPos = function() {
+            var startPos_chordslist = $('.chordslist.' + _activeChord.replace(' ', '.'));
+            _startPos = startPos_chordslist.data('chordidx');
+            _startTime = startPos_chordslist.data('postn');
+            if (!_startPos) {
+                _startPos = 1;
+                _startTime = 0;
+            };
+            _scroll_chords();
+        },
+
+        _scroll_chords = function() {
+            $('.ui.segment.chords').animate({
+                scrollTop: (((Math.floor(_startPos / _chordInRow) - 1) * 77) + (Math.floor(_startPos / (_chordInRow * 13)) * 10) + (Math.floor(_startPos / (_chordInRow * 13 * 2)) * 10))
+            }, 500);
+        },
+
+        _detect_manual_seek = function() {
+            if (Math.abs(_CurTime - _startTime) > 3) {
+                clearInterval(_chordTransition_TO);
+                $.each(_ffchordlist, function(idx) {
+                    if ($(this)[0].curr.data('postn') > _CurTime) {
+                        $(this)[0].curr.click();
+                        return false;
+                    }
+                });
+            }
+        },
+
+        _moveChord = function() {
+            _CurTime = _player.getCurrentTime();
+            if (_CurTime >= _startTime) {
+                _ffchordlist[_startPos].curr.addClass(_activeChord);
+                if (_startPos > 1) {
+                    _ffchordlist[_startPos].prev.removeClass(_activeChord);
+                }
+                if (_startPos > _chordInRow && (_startPos % _chordInRow) == 1) {
+                    _scroll_chords();
+                }
+                if (_startPos >= _ffchordlist_len) {
+                    clearInterval(_chordTransition_TO);
+                    return;
+                }
+                _startPos++;
+                _startTime = _ffchordlist[_startPos].curr.data('postn');
+            };
+            _detect_manual_seek();
+        },
+
+        _chordTransition = function() {
+            _set_startPos();
+            _chordTransition_TO = setInterval(_moveChord, 20)
+        },
+
+        _seek_to_postn = function() {
+            if (_player) {
+                _seek_to_postn_TO = setTimeout(function(thisObj) {
+                    if ($('.chordslist.' + _activeChord.replace(' ', '.')).length) {
+                        clearInterval(_chordTransition_TO);
+                        _ffchordlist[_startPos].curr.removeClass(_activeChord);
+                        _ffchordlist[_startPos].prev.removeClass(_activeChord);
+                        _player.seekTo(thisObj.data('postn'), true);
+                        if (Number(thisObj.data('postn')) > 0) {
+                            _ffchordlist[thisObj.data('chordidx')].curr.addClass(_activeChord);
+                        }
+                        clearTimeout(_seek_to_postn_TO);
+                    };
+                }($(this)), 20);
+            };
+        },
+
+        _play_pause = function() {
+            if (!_player) {
+                $('.ui.embed > i.video.play').click();
+            } else {
+                if (_playing === true) {
+                    _player.pauseVideo();
+                } else {
+                    _player.playVideo();
+                }
+            };
+        },
+
+        _register_player_event = function() {
+            $('#ff_play').on('click', _play_pause);
+            $('#ff_start').on('click', _seek_to_postn);
+        };
+
+    function _onPlayerReady() {
+        _player.setPlaybackQuality('tiny');
+    };
+
+    function _onPlayerStateChange(e) {
+        switch (e.data) {
+            case YT.PlayerState.PLAYING:
+                _chordTransition();
+                _playing = true;
+                $('#ff_play').html('<i class="pause icon"></i>');
+                break;
+            case YT.PlayerState.PAUSED:
+                clearInterval(_chordTransition_TO);
+                _playing = false;
+                $('#ff_play').html('<i class="play icon"></i>');
+                break;
+            case YT.PlayerState.ENDED:
+                clearInterval(_chordTransition_TO);
+                _ffchordlist[_ffchordlist_len].curr.removeClass(_activeChord);
+                _playing = false;
+                $('#ff_play').html('<i class="play icon"></i>');
+                break;
+            case YT.PlayerState.BUFFERING:
+                _playing = false;
+                break;
+            case YT.PlayerState.CUED:
+                break;
+        }
+    };
+
+    var init = function() {
+        _setting();
+        _embed_player();
+        _register_player_event();
+    };
+
+    return {init: init}
+
+});

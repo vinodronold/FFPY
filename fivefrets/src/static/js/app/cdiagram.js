@@ -1,95 +1,104 @@
-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
-GZhDOp7JqQnfwhMOYJZnJA==
+
+define(["jquery", "raphael"], function($, ra) {
+    "use strict";
+
+    var _cnt = 0,
+
+        _config = {},
+
+        _set_config = function(startx, starty, stringSpace, fretSpace, strings, frets, padding) {
+            _config.startx = startx;
+            _config.starty = starty;
+            _config.stringSpace = stringSpace;
+            _config.fretSpace = fretSpace;
+            _config.strings = strings;
+            _config.frets = frets;
+            _config.padding = padding;
+            _config.paperx = startx + (stringSpace * (strings - 1)) + padding;
+            _config.papery = starty + (fretSpace * frets) + padding;
+            _config.fretWidth = stringSpace * (strings - 1);
+            _config.chordNamex = startx + ((stringSpace * (strings - 1)) / 2);
+            _config.chordNamey = starty - padding;
+
+            _config.stringPath = "";
+            for (_cnt = 1; _cnt < strings - 1; _cnt++) {
+                var stringStartx = (startx + (stringSpace * _cnt));
+                _config.stringPath = _config.stringPath + "M" + stringStartx + " " + starty + " " + "L" + stringStartx + " " + (starty + (fretSpace * frets));
+            }
+            _config.fretPath = "";
+            for (_cnt = 1; _cnt < frets; _cnt++) {
+                var fretStarty = starty + (fretSpace * _cnt);
+                _config.fretPath = _config.fretPath + "M" + startx + " " + fretStarty + "L" + (startx + _config.fretWidth) + " " + fretStarty;
+            }
+
+        },
+
+        _draw_n_plot = function(thisObj) {
+            var ffcdia = thisObj.data('ffcdia').split(","), // [START_FRET, BARRE, STRING6, STRING5, STRING4, STRING3, STRING2, STRING1]
+                startFretNum = ffcdia[0],
+                position = ffcdia.slice(1, 8),
+                first_fret;
+            if (Number(startFretNum) === 1) {
+                first_fret = "M" + _config.startx + " " + (_config.starty + 1) + "L" + (_config.startx + _config.fretWidth) + " " + (_config.starty + 1);
+            }
+            var cdia = new ra(thisObj.attr('id'), _config.paperx, _config.papery);
+            cdia.setViewBox(0, 0, _config.paperx, _config.paperx, 1)
+            var cdia_frets = cdia.set();
+            cdia_frets.push(
+                cdia.text(_config.chordNamex, _config.chordNamey, thisObj.data('ffcdianame')),
+                cdia.rect(_config.startx, _config.starty, _config.fretWidth, (_config.fretSpace * _config.frets), 2),
+                cdia.path(_config.stringPath + _config.fretPath + first_fret)
+            );
+            for (_cnt = 0; _cnt < _config.frets; _cnt++) {
+                cdia_frets.push(
+                    cdia.text(_config.padding, _config.starty + ((_config.fretSpace * _cnt) + (_config.fretSpace / 2)), (Number(startFretNum[0]) + _cnt))
+                );
+            }
+
+            var cdia_finger = cdia.set();
+            if (position[0] > 0 && position[0] <= _config.frets) {
+                var barreStarty = _config.starty + (_config.fretSpace * (position[0] - 1)) + (_config.fretSpace / 3);
+                var barrePath = "M" + _config.startx + " " + barreStarty +
+                    "L" + (_config.startx + _config.fretWidth) + " " + barreStarty +
+                    "A1 1 0 0 1 " + (_config.startx + _config.fretWidth) + " " + (barreStarty + 5) +
+                    "L" + _config.startx + " " + (barreStarty + 5) +
+                    "A1 1 0 0 1 " + _config.startx + " " + barreStarty;
+                cdia_finger.push(
+                    cdia.path(barrePath)
+                );
+            }
+            $.each(position, function(index, value) {
+                if (index > 0 && value > 0) {
+                    cdia_finger.push(
+                        cdia.circle((_config.startx + (_config.stringSpace * (index - 1))), (_config.starty + (_config.fretSpace * (value - 1)) + (_config.fretSpace / 2)), 3)
+                    );
+                }
+
+            })
+            cdia_finger.attr({
+                stroke: '#333',
+                'fill': '#333'
+            });
+        },
+
+        _centered_image = function() {
+            $("div[id^='ffcdia_'] > svg").addClass("ui fluid centered image");
+        },
+
+        _guitar_chord = function() {
+            _set_config(15, 10, 10, 15, 6, 4, 5);
+            $("div[id^='ffcdia_']").each(function() {
+                _draw_n_plot($(this))
+            });
+        },
+
+        draw = function() {
+            _guitar_chord();
+            _centered_image();
+        };
+
+    return {
+        draw: draw
+    };
+
+});

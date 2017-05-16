@@ -1,167 +1,250 @@
-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
+// Core javascript helper functions
+
+// basic browser identification & version
+var isOpera = (navigator.userAgent.indexOf("Opera") >= 0) && parseFloat(navigator.appVersion);
+var isIE = ((document.all) && (!isOpera)) && parseFloat(navigator.appVersion.split("MSIE ")[1].split(";")[0]);
+
+// Cross-browser event handlers.
+function addEvent(obj, evType, fn) {
+    'use strict';
+    if (obj.addEventListener) {
+        obj.addEventListener(evType, fn, false);
+        return true;
+    } else if (obj.attachEvent) {
+        var r = obj.attachEvent("on" + evType, fn);
+        return r;
+    } else {
+        return false;
+    }
+}
+
+function removeEvent(obj, evType, fn) {
+    'use strict';
+    if (obj.removeEventListener) {
+        obj.removeEventListener(evType, fn, false);
+        return true;
+    } else if (obj.detachEvent) {
+        obj.detachEvent("on" + evType, fn);
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function cancelEventPropagation(e) {
+    'use strict';
+    if (!e) {
+        e = window.event;
+    }
+    e.cancelBubble = true;
+    if (e.stopPropagation) {
+        e.stopPropagation();
+    }
+}
+
+// quickElement(tagType, parentReference [, textInChildNode, attribute, attributeValue ...]);
+function quickElement() {
+    'use strict';
+    var obj = document.createElement(arguments[0]);
+    if (arguments[2]) {
+        var textNode = document.createTextNode(arguments[2]);
+        obj.appendChild(textNode);
+    }
+    var len = arguments.length;
+    for (var i = 3; i < len; i += 2) {
+        obj.setAttribute(arguments[i], arguments[i + 1]);
+    }
+    arguments[1].appendChild(obj);
+    return obj;
+}
+
+// "a" is reference to an object
+function removeChildren(a) {
+    'use strict';
+    while (a.hasChildNodes()) {
+        a.removeChild(a.lastChild);
+    }
+}
+
+// ----------------------------------------------------------------------------
+// Find-position functions by PPK
+// See http://www.quirksmode.org/js/findpos.html
+// ----------------------------------------------------------------------------
+function findPosX(obj) {
+    'use strict';
+    var curleft = 0;
+    if (obj.offsetParent) {
+        while (obj.offsetParent) {
+            curleft += obj.offsetLeft - ((isOpera) ? 0 : obj.scrollLeft);
+            obj = obj.offsetParent;
+        }
+        // IE offsetParent does not include the top-level
+        if (isIE && obj.parentElement) {
+            curleft += obj.offsetLeft - obj.scrollLeft;
+        }
+    } else if (obj.x) {
+        curleft += obj.x;
+    }
+    return curleft;
+}
+
+function findPosY(obj) {
+    'use strict';
+    var curtop = 0;
+    if (obj.offsetParent) {
+        while (obj.offsetParent) {
+            curtop += obj.offsetTop - ((isOpera) ? 0 : obj.scrollTop);
+            obj = obj.offsetParent;
+        }
+        // IE offsetParent does not include the top-level
+        if (isIE && obj.parentElement) {
+            curtop += obj.offsetTop - obj.scrollTop;
+        }
+    } else if (obj.y) {
+        curtop += obj.y;
+    }
+    return curtop;
+}
+
+//-----------------------------------------------------------------------------
+// Date object extensions
+// ----------------------------------------------------------------------------
+(function() {
+    'use strict';
+    Date.prototype.getTwelveHours = function() {
+        var hours = this.getHours();
+        if (hours === 0) {
+            return 12;
+        }
+        else {
+            return hours <= 12 ? hours : hours - 12;
+        }
+    };
+
+    Date.prototype.getTwoDigitMonth = function() {
+        return (this.getMonth() < 9) ? '0' + (this.getMonth() + 1) : (this.getMonth() + 1);
+    };
+
+    Date.prototype.getTwoDigitDate = function() {
+        return (this.getDate() < 10) ? '0' + this.getDate() : this.getDate();
+    };
+
+    Date.prototype.getTwoDigitTwelveHour = function() {
+        return (this.getTwelveHours() < 10) ? '0' + this.getTwelveHours() : this.getTwelveHours();
+    };
+
+    Date.prototype.getTwoDigitHour = function() {
+        return (this.getHours() < 10) ? '0' + this.getHours() : this.getHours();
+    };
+
+    Date.prototype.getTwoDigitMinute = function() {
+        return (this.getMinutes() < 10) ? '0' + this.getMinutes() : this.getMinutes();
+    };
+
+    Date.prototype.getTwoDigitSecond = function() {
+        return (this.getSeconds() < 10) ? '0' + this.getSeconds() : this.getSeconds();
+    };
+
+    Date.prototype.getHourMinute = function() {
+        return this.getTwoDigitHour() + ':' + this.getTwoDigitMinute();
+    };
+
+    Date.prototype.getHourMinuteSecond = function() {
+        return this.getTwoDigitHour() + ':' + this.getTwoDigitMinute() + ':' + this.getTwoDigitSecond();
+    };
+
+    Date.prototype.getFullMonthName = function() {
+        return typeof window.CalendarNamespace === "undefined"
+            ? this.getTwoDigitMonth()
+            : window.CalendarNamespace.monthsOfYear[this.getMonth()];
+    };
+
+    Date.prototype.strftime = function(format) {
+        var fields = {
+            B: this.getFullMonthName(),
+            c: this.toString(),
+            d: this.getTwoDigitDate(),
+            H: this.getTwoDigitHour(),
+            I: this.getTwoDigitTwelveHour(),
+            m: this.getTwoDigitMonth(),
+            M: this.getTwoDigitMinute(),
+            p: (this.getHours() >= 12) ? 'PM' : 'AM',
+            S: this.getTwoDigitSecond(),
+            w: '0' + this.getDay(),
+            x: this.toLocaleDateString(),
+            X: this.toLocaleTimeString(),
+            y: ('' + this.getFullYear()).substr(2, 4),
+            Y: '' + this.getFullYear(),
+            '%': '%'
+        };
+        var result = '', i = 0;
+        while (i < format.length) {
+            if (format.charAt(i) === '%') {
+                result = result + fields[format.charAt(i + 1)];
+                ++i;
+            }
+            else {
+                result = result + format.charAt(i);
+            }
+            ++i;
+        }
+        return result;
+    };
+
+// ----------------------------------------------------------------------------
+// String object extensions
+// ----------------------------------------------------------------------------
+    String.prototype.pad_left = function(pad_length, pad_string) {
+        var new_string = this;
+        for (var i = 0; new_string.length < pad_length; i++) {
+            new_string = pad_string + new_string;
+        }
+        return new_string;
+    };
+
+    String.prototype.strptime = function(format) {
+        var split_format = format.split(/[.\-/]/);
+        var date = this.split(/[.\-/]/);
+        var i = 0;
+        var day, month, year;
+        while (i < split_format.length) {
+            switch (split_format[i]) {
+                case "%d":
+                    day = date[i];
+                    break;
+                case "%m":
+                    month = date[i] - 1;
+                    break;
+                case "%Y":
+                    year = date[i];
+                    break;
+                case "%y":
+                    year = date[i];
+                    break;
+            }
+            ++i;
+        }
+        // Create Date object from UTC since the parsed value is supposed to be
+        // in UTC, not local time. Also, the calendar uses UTC functions for
+        // date extraction.
+        return new Date(Date.UTC(year, month, day));
+    };
+
+})();
+// ----------------------------------------------------------------------------
+// Get the computed style for and element
+// ----------------------------------------------------------------------------
+function getStyle(oElm, strCssRule) {
+    'use strict';
+    var strValue = "";
+    if(document.defaultView && document.defaultView.getComputedStyle) {
+        strValue = document.defaultView.getComputedStyle(oElm, "").getPropertyValue(strCssRule);
+    }
+    else if(oElm.currentStyle) {
+        strCssRule = strCssRule.replace(/\-(\w)/g, function(strMatch, p1) {
+            return p1.toUpperCase();
+        });
+        strValue = oElm.currentStyle[strCssRule];
+    }
+    return strValue;
+}

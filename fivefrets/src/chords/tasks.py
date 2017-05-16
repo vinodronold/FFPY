@@ -1,89 +1,123 @@
-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
+from __future__ import absolute_import, unicode_literals
+from fivefrets.settings import (FF_EXTRACT_PATH, FF_EXTRACT_EXT, FF_EXTRACT_YTID,
+                                FF_EXTRACT_VAMP, FF_EXTRACT_FILEPATH, FF_EXTRACT_CSV, FF_EXTRACT_MAX_DURATION)
+from fivefrets.celery import app
+from songs.utils import validate_ytid
+from songs.models import Song, SongChord
+
+
+def resolve_filepath(filepath, ytid):
+    return str(filepath.replace(FF_EXTRACT_YTID, ytid))
+
+
+@app.task
+def download(ytid):
+    song = Song.objects.get(youtube=ytid)
+    if validate_ytid(ytid=ytid):
+        from youtube_dl import YoutubeDL
+        ydl_opts = {
+            'format': 'bestaudio/best',
+            'extractaudio': True,
+            'audioformat': FF_EXTRACT_EXT,
+            'outtmpl': FF_EXTRACT_PATH + '%(id)s.%(ext)s',
+            'noplaylist': True,
+            'quiet': True,
+            'postprocessors': [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': FF_EXTRACT_EXT,
+                'preferredquality': '128',
+            }]
+        }
+        ydl = YoutubeDL(ydl_opts)
+        with ydl:
+            try:
+                result = ydl.extract_info(ytid, download=False)
+                if (int(round(float(result['duration']))) > FF_EXTRACT_MAX_DURATION):
+                    song.process_status = 3
+                    song.save()
+                    ytid = None
+                else:
+                    ydl.download([ytid])
+                    song.process_status = 2
+                    song.name = result['title']
+                    song.save()
+            except Exception as e:
+                print("Can't process yt_id = %s" % ytid)
+            return ytid
+    else:
+        song.process_status = 6
+        song.name = 'Invalid'
+        song.save()
+        ytid = None
+        return
+
+
+@app.task
+def extract(ytid):
+    if ytid:
+        from subprocess import check_call
+        result = check_call([
+            'sonic-annotator',
+            '-d',
+            'vamp:' + FF_EXTRACT_VAMP,
+            resolve_filepath(FF_EXTRACT_FILEPATH, ytid),
+            '-w', 'csv',
+            '--csv-force',
+            '--force',
+        ])
+    return ytid
+
+
+@app.task
+def convert_to_chords(ytid):
+    if ytid:
+        from librosa import load, beat, frames_to_time
+        try:
+            audio, sample_rate = load(
+                resolve_filepath(FF_EXTRACT_FILEPATH, ytid))
+            tempo, beat_frames = beat.beat_track(y=audio, sr=sample_rate)
+            beat_times = frames_to_time(beat_frames, sr=sample_rate)
+        except Exception as e:
+            print("Can't process yt_id = %s" % ytid)
+    return save_chords(ytid, '{:.2f}'.format(tempo), beat_times) if ytid else None
+
+
+def save_chords(ytid, beat_per_min, beat_times):
+    if ytid:
+        from csv import reader
+        from chords.models import Chord
+        song = Song.objects.get(youtube=ytid)
+        with open(resolve_filepath(FF_EXTRACT_CSV, ytid), 'r') as f:
+            chords = list(reader(f))
+        chord_idx = 0
+        insert_list = []
+        for beat_time in beat_times:
+            chord_idx = chord_idx = chord_idx + \
+                1 if float(beat_time) >= float(
+                    chords[chord_idx + 1][0]) else chord_idx
+            est_chord = chords[chord_idx][1].split('-')
+            id_chord_typ = est_chord[1] if len(est_chord) > 1 else None
+            id_chords = Chord.objects.filter(name__exact=est_chord[0],
+                                             typ__exact='MIN' if id_chord_typ == 'm' else 'MAJ')
+            for id_chord in id_chords:
+                id_chord = id_chord
+                break
+
+            insert_list.append(SongChord(song=song,
+                                         chord=id_chord,
+                                         beat_position=beat_time,
+                                         start_time=chords[chord_idx][0]))
+        SongChord.objects.bulk_create(insert_list)
+        song.bpm = beat_per_min
+        song.process_status = 0
+        song.save()
+
+    return ytid
+
+
+@app.task
+def delete_all_files(ytid):
+    if ytid:
+        from os import remove
+        remove(resolve_filepath(FF_EXTRACT_FILEPATH, ytid))
+        remove(resolve_filepath(FF_EXTRACT_CSV, ytid))

@@ -1,13 +1,16 @@
-U2FsdGVkX1+IS/8sKAf24NHM83cx7tsdQyND0ZtlK7J9tOlZtNKBsgHUTkXMif9c
-mMqFb27gJFiCHy0p6BZqcnwFHQ5m72jmOrX8EGtSGmDSK0NqRFZmt+25cPCtrpSL
-3DcnyXEdNG13KLBTc5E30q/i+RB6rkDTlYI9IFkM6oW9RWtY7Uj3unUeABk7E5sB
-g9VkXhl++py+gllSL19moU+i4sk0QeJ5Cz5vXX1jurwcnJwPGuE3ZLPw64SB5R4h
-+GQO13Sos9JHr9PnwqHB4V4936tRCnV4cXxf2LBirTFPrVkHzeJWKUej3U/WggPo
-zx9mBr1cfkU6I7GKzugupAJkMLzPLOxBycZwzgyfr6VZhc4t+kAzevFnK1rS8q/G
-8XMAADP+/hD8JWdQoengrf4XT4qyJejEKMfi544OaQ+9UC4fjSDLqGH8sJJ9Gjdz
-LoeLMHSFngPxU7N0wV+rnTdJTvg8Mh5xhJmjf/pnVBnMR4JGwIMtE835MVO5rRDw
-nxnUHzect6q9Gpq3sM5GhT2MGJs3EQzvzpM7MtMzytU9tRxGwUuZdyIjTUVsRBni
-n31lrnxrWBiKBOG4PQ7cnxR4cIhpmwfbQeBThJ+kwdqYxwRuxzS/Wmy9wxMEoJxH
-59xhXLR3VkNdpO64dpMd8EmGUG6V4w58Y8c1lvzmv4Jpn3vjUgUgv1sy1nINmRvC
-WrdsoMdcWmxv7P15RRRIRChL6jAYnWI4ss4QRzXgCNdh9+JwuV/brKETI9CjMZzT
-M/vhe1AJkjuMkTp/RhftGg==
+/*global opener */
+(function() {
+    'use strict';
+    var initData = JSON.parse(document.getElementById('django-admin-popup-response-constants').dataset.popupResponse);
+    switch(initData.action) {
+    case 'change':
+        opener.dismissChangeRelatedObjectPopup(window, initData.value, initData.obj, initData.new_value);
+        break;
+    case 'delete':
+        opener.dismissDeleteRelatedObjectPopup(window, initData.value);
+        break;
+    default:
+        opener.dismissAddRelatedObjectPopup(window, initData.value, initData.obj);
+        break;
+    }
+})();

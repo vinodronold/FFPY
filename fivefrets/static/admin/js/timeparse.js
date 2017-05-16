@@ -1,63 +1,106 @@
-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
+(function() {
+    'use strict';
+    var timeParsePatterns = [
+        // 9
+        {
+            re: /^\d{1,2}$/i,
+            handler: function(bits) {
+                if (bits[0].length === 1) {
+                    return '0' + bits[0] + ':00';
+                } else {
+                    return bits[0] + ':00';
+                }
+            }
+        },
+        // 13:00
+        {
+            re: /^\d{2}[:.]\d{2}$/i,
+            handler: function(bits) {
+                return bits[0].replace('.', ':');
+            }
+        },
+        // 9:00
+        {
+            re: /^\d[:.]\d{2}$/i,
+            handler: function(bits) {
+                return '0' + bits[0].replace('.', ':');
+            }
+        },
+        // 3 am / 3 a.m. / 3am
+        {
+            re: /^(\d+)\s*([ap])(?:.?m.?)?$/i,
+            handler: function(bits) {
+                var hour = parseInt(bits[1]);
+                if (hour === 12) {
+                    hour = 0;
+                }
+                if (bits[2].toLowerCase() === 'p') {
+                    if (hour === 12) {
+                        hour = 0;
+                    }
+                    return (hour + 12) + ':00';
+                } else {
+                    if (hour < 10) {
+                        return '0' + hour + ':00';
+                    } else {
+                        return hour + ':00';
+                    }
+                }
+            }
+        },
+        // 3.30 am / 3:15 a.m. / 3.00am
+        {
+            re: /^(\d+)[.:](\d{2})\s*([ap]).?m.?$/i,
+            handler: function(bits) {
+                var hour = parseInt(bits[1]);
+                var mins = parseInt(bits[2]);
+                if (mins < 10) {
+                    mins = '0' + mins;
+                }
+                if (hour === 12) {
+                    hour = 0;
+                }
+                if (bits[3].toLowerCase() === 'p') {
+                    if (hour === 12) {
+                        hour = 0;
+                    }
+                    return (hour + 12) + ':' + mins;
+                } else {
+                    if (hour < 10) {
+                        return '0' + hour + ':' + mins;
+                    } else {
+                        return hour + ':' + mins;
+                    }
+                }
+            }
+        },
+        // noon
+        {
+            re: /^no/i,
+            handler: function(bits) {
+                return '12:00';
+            }
+        },
+        // midnight
+        {
+            re: /^mid/i,
+            handler: function(bits) {
+                return '00:00';
+            }
+        }
+    ];
+
+    function parseTimeString(s) {
+        for (var i = 0; i < timeParsePatterns.length; i++) {
+            var re = timeParsePatterns[i].re;
+            var handler = timeParsePatterns[i].handler;
+            var bits = re.exec(s);
+            if (bits) {
+                return handler(bits);
+            }
+        }
+        return s;
+    }
+
+    window.parseTimeString = parseTimeString;
+})();

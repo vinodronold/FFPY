@@ -1,280 +1,290 @@
-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
+/*global DateTimeShortcuts, SelectFilter*/
+/**
+ * Django admin inlines
+ *
+ * Based on jQuery Formset 1.1
+ * @author Stanislaus Madueke (stan DOT madueke AT gmail DOT com)
+ * @requires jQuery 1.2.6 or later
+ *
+ * Copyright (c) 2009, Stanislaus Madueke
+ * All rights reserved.
+ *
+ * Spiced up with Code from Zain Memon's GSoC project 2009
+ * and modified for Django by Jannis Leidel, Travis Swicegood and Julien Phalip.
+ *
+ * Licensed under the New BSD License
+ * See: http://www.opensource.org/licenses/bsd-license.php
+ */
+(function($) {
+    'use strict';
+    $.fn.formset = function(opts) {
+        var options = $.extend({}, $.fn.formset.defaults, opts);
+        var $this = $(this);
+        var $parent = $this.parent();
+        var updateElementIndex = function(el, prefix, ndx) {
+            var id_regex = new RegExp("(" + prefix + "-(\\d+|__prefix__))");
+            var replacement = prefix + "-" + ndx;
+            if ($(el).prop("for")) {
+                $(el).prop("for", $(el).prop("for").replace(id_regex, replacement));
+            }
+            if (el.id) {
+                el.id = el.id.replace(id_regex, replacement);
+            }
+            if (el.name) {
+                el.name = el.name.replace(id_regex, replacement);
+            }
+        };
+        var totalForms = $("#id_" + options.prefix + "-TOTAL_FORMS").prop("autocomplete", "off");
+        var nextIndex = parseInt(totalForms.val(), 10);
+        var maxForms = $("#id_" + options.prefix + "-MAX_NUM_FORMS").prop("autocomplete", "off");
+        // only show the add button if we are allowed to add more items,
+        // note that max_num = None translates to a blank string.
+        var showAddButton = maxForms.val() === '' || (maxForms.val() - totalForms.val()) > 0;
+        $this.each(function(i) {
+            $(this).not("." + options.emptyCssClass).addClass(options.formCssClass);
+        });
+        if ($this.length && showAddButton) {
+            var addButton;
+            if ($this.prop("tagName") === "TR") {
+                // If forms are laid out as table rows, insert the
+                // "add" button in a new table row:
+                var numCols = this.eq(-1).children().length;
+                $parent.append('<tr class="' + options.addCssClass + '"><td colspan="' + numCols + '"><a href="#">' + options.addText + "</a></tr>");
+                addButton = $parent.find("tr:last a");
+            } else {
+                // Otherwise, insert it immediately after the last form:
+                $this.filter(":last").after('<div class="' + options.addCssClass + '"><a href="#">' + options.addText + "</a></div>");
+                addButton = $this.filter(":last").next().find("a");
+            }
+            addButton.click(function(e) {
+                e.preventDefault();
+                var template = $("#" + options.prefix + "-empty");
+                var row = template.clone(true);
+                row.removeClass(options.emptyCssClass)
+                .addClass(options.formCssClass)
+                .attr("id", options.prefix + "-" + nextIndex);
+                if (row.is("tr")) {
+                    // If the forms are laid out in table rows, insert
+                    // the remove button into the last table cell:
+                    row.children(":last").append('<div><a class="' + options.deleteCssClass + '" href="#">' + options.deleteText + "</a></div>");
+                } else if (row.is("ul") || row.is("ol")) {
+                    // If they're laid out as an ordered/unordered list,
+                    // insert an <li> after the last list item:
+                    row.append('<li><a class="' + options.deleteCssClass + '" href="#">' + options.deleteText + "</a></li>");
+                } else {
+                    // Otherwise, just insert the remove button as the
+                    // last child element of the form's container:
+                    row.children(":first").append('<span><a class="' + options.deleteCssClass + '" href="#">' + options.deleteText + "</a></span>");
+                }
+                row.find("*").each(function() {
+                    updateElementIndex(this, options.prefix, totalForms.val());
+                });
+                // Insert the new form when it has been fully edited
+                row.insertBefore($(template));
+                // Update number of total forms
+                $(totalForms).val(parseInt(totalForms.val(), 10) + 1);
+                nextIndex += 1;
+                // Hide add button in case we've hit the max, except we want to add infinitely
+                if ((maxForms.val() !== '') && (maxForms.val() - totalForms.val()) <= 0) {
+                    addButton.parent().hide();
+                }
+                // The delete button of each row triggers a bunch of other things
+                row.find("a." + options.deleteCssClass).click(function(e1) {
+                    e1.preventDefault();
+                    // Remove the parent form containing this button:
+                    row.remove();
+                    nextIndex -= 1;
+                    // If a post-delete callback was provided, call it with the deleted form:
+                    if (options.removed) {
+                        options.removed(row);
+                    }
+                    $(document).trigger('formset:removed', [row, options.prefix]);
+                    // Update the TOTAL_FORMS form count.
+                    var forms = $("." + options.formCssClass);
+                    $("#id_" + options.prefix + "-TOTAL_FORMS").val(forms.length);
+                    // Show add button again once we drop below max
+                    if ((maxForms.val() === '') || (maxForms.val() - forms.length) > 0) {
+                        addButton.parent().show();
+                    }
+                    // Also, update names and ids for all remaining form controls
+                    // so they remain in sequence:
+                    var i, formCount;
+                    var updateElementCallback = function() {
+                        updateElementIndex(this, options.prefix, i);
+                    };
+                    for (i = 0, formCount = forms.length; i < formCount; i++) {
+                        updateElementIndex($(forms).get(i), options.prefix, i);
+                        $(forms.get(i)).find("*").each(updateElementCallback);
+                    }
+                });
+                // If a post-add callback was supplied, call it with the added form:
+                if (options.added) {
+                    options.added(row);
+                }
+                $(document).trigger('formset:added', [row, options.prefix]);
+            });
+        }
+        return this;
+    };
+
+    /* Setup plugin defaults */
+    $.fn.formset.defaults = {
+        prefix: "form",          // The form prefix for your django formset
+        addText: "add another",      // Text for the add link
+        deleteText: "remove",      // Text for the delete link
+        addCssClass: "add-row",      // CSS class applied to the add link
+        deleteCssClass: "delete-row",  // CSS class applied to the delete link
+        emptyCssClass: "empty-row",    // CSS class applied to the empty row
+        formCssClass: "dynamic-form",  // CSS class applied to each form in a formset
+        added: null,          // Function called each time a new form is added
+        removed: null          // Function called each time a form is deleted
+    };
+
+
+    // Tabular inlines ---------------------------------------------------------
+    $.fn.tabularFormset = function(options) {
+        var $rows = $(this);
+        var alternatingRows = function(row) {
+            $($rows.selector).not(".add-row").removeClass("row1 row2")
+            .filter(":even").addClass("row1").end()
+            .filter(":odd").addClass("row2");
+        };
+
+        var reinitDateTimeShortCuts = function() {
+            // Reinitialize the calendar and clock widgets by force
+            if (typeof DateTimeShortcuts !== "undefined") {
+                $(".datetimeshortcuts").remove();
+                DateTimeShortcuts.init();
+            }
+        };
+
+        var updateSelectFilter = function() {
+            // If any SelectFilter widgets are a part of the new form,
+            // instantiate a new SelectFilter instance for it.
+            if (typeof SelectFilter !== 'undefined') {
+                $('.selectfilter').each(function(index, value) {
+                    var namearr = value.name.split('-');
+                    SelectFilter.init(value.id, namearr[namearr.length - 1], false);
+                });
+                $('.selectfilterstacked').each(function(index, value) {
+                    var namearr = value.name.split('-');
+                    SelectFilter.init(value.id, namearr[namearr.length - 1], true);
+                });
+            }
+        };
+
+        var initPrepopulatedFields = function(row) {
+            row.find('.prepopulated_field').each(function() {
+                var field = $(this),
+                    input = field.find('input, select, textarea'),
+                    dependency_list = input.data('dependency_list') || [],
+                    dependencies = [];
+                $.each(dependency_list, function(i, field_name) {
+                    dependencies.push('#' + row.find('.field-' + field_name).find('input, select, textarea').attr('id'));
+                });
+                if (dependencies.length) {
+                    input.prepopulate(dependencies, input.attr('maxlength'));
+                }
+            });
+        };
+
+        $rows.formset({
+            prefix: options.prefix,
+            addText: options.addText,
+            formCssClass: "dynamic-" + options.prefix,
+            deleteCssClass: "inline-deletelink",
+            deleteText: options.deleteText,
+            emptyCssClass: "empty-form",
+            removed: alternatingRows,
+            added: function(row) {
+                initPrepopulatedFields(row);
+                reinitDateTimeShortCuts();
+                updateSelectFilter();
+                alternatingRows(row);
+            }
+        });
+
+        return $rows;
+    };
+
+    // Stacked inlines ---------------------------------------------------------
+    $.fn.stackedFormset = function(options) {
+        var $rows = $(this);
+        var updateInlineLabel = function(row) {
+            $($rows.selector).find(".inline_label").each(function(i) {
+                var count = i + 1;
+                $(this).html($(this).html().replace(/(#\d+)/g, "#" + count));
+            });
+        };
+
+        var reinitDateTimeShortCuts = function() {
+            // Reinitialize the calendar and clock widgets by force, yuck.
+            if (typeof DateTimeShortcuts !== "undefined") {
+                $(".datetimeshortcuts").remove();
+                DateTimeShortcuts.init();
+            }
+        };
+
+        var updateSelectFilter = function() {
+            // If any SelectFilter widgets were added, instantiate a new instance.
+            if (typeof SelectFilter !== "undefined") {
+                $(".selectfilter").each(function(index, value) {
+                    var namearr = value.name.split('-');
+                    SelectFilter.init(value.id, namearr[namearr.length - 1], false);
+                });
+                $(".selectfilterstacked").each(function(index, value) {
+                    var namearr = value.name.split('-');
+                    SelectFilter.init(value.id, namearr[namearr.length - 1], true);
+                });
+            }
+        };
+
+        var initPrepopulatedFields = function(row) {
+            row.find('.prepopulated_field').each(function() {
+                var field = $(this),
+                    input = field.find('input, select, textarea'),
+                    dependency_list = input.data('dependency_list') || [],
+                    dependencies = [];
+                $.each(dependency_list, function(i, field_name) {
+                    dependencies.push('#' + row.find('.form-row .field-' + field_name).find('input, select, textarea').attr('id'));
+                });
+                if (dependencies.length) {
+                    input.prepopulate(dependencies, input.attr('maxlength'));
+                }
+            });
+        };
+
+        $rows.formset({
+            prefix: options.prefix,
+            addText: options.addText,
+            formCssClass: "dynamic-" + options.prefix,
+            deleteCssClass: "inline-deletelink",
+            deleteText: options.deleteText,
+            emptyCssClass: "empty-form",
+            removed: updateInlineLabel,
+            added: function(row) {
+                initPrepopulatedFields(row);
+                reinitDateTimeShortCuts();
+                updateSelectFilter();
+                updateInlineLabel(row);
+            }
+        });
+
+        return $rows;
+    };
+
+    $(document).ready(function() {
+        $(".js-inline-admin-formset").each(function() {
+            var data = $(this).data(),
+                inlineOptions = data.inlineFormset;
+            switch(data.inlineType) {
+            case "stacked":
+                $(inlineOptions.name + "-group .inline-related").stackedFormset(inlineOptions.options);
+                break;
+            case "tabular":
+                $(inlineOptions.name + "-group .tabular.inline-related tbody tr").tabularFormset(inlineOptions.options);
+                break;
+            }
+        });
+    });
+})(django.jQuery);

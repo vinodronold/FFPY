@@ -1,5 +1,9 @@
-U2FsdGVkX1+Q869dC6S8cNXB+Yow3/6kyCjsyNzAxycs6WhwF1eGIpQmgO3tyLE2
-nPAtrrFDIkMTQF0Pqj5hqVse+/aAC0ZzCx11YcS3Mh3xbvKiwJdIUPwrF2qo/XXA
-ujxzejnFYLNN9L+gJ1w070jW1G7kwYmpEy8IGjV8bHqHMygNwNHDBnS9Ljnw2uBW
-sNxtEdeSDc0oEZBhFEIAc5TZ4nknTWwrym1PDBEI0DqSOtlNRjHmu0/0qMPS70Si
-K4BINyfXwmQSoOfWlhiApSQ6FAu507ZgiicWKV/I1Ig=
+(function($) {
+    'use strict';
+    $(function() {
+        $('.cancel-link').click(function(e) {
+            e.preventDefault();
+            window.history.back();
+        });
+    });
+})(django.jQuery);

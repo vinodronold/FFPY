@@ -1,6 +1,13 @@
-U2FsdGVkX185jAo8KwOLIB+j2fdKVYJtq641MoSojZQwMB8RUGlG8pwqAVhrlnn2
-o4upIV33L83RsBLUqWbr5M+5wil1KC3o/+MmwWYDpR+WwD5z0lAMOmdueolId20A
-4stHkem0W9mkvcHwl26f//j3P+fiXJ9FPE91XGnhz64Pji2zzs10yHA1mHhi3jEb
-cCqQR9Dqvj1ptrgsv/oKR0h4PanJ4qvnCuz/xc11zuclWJngxIWCrDRVBZuHsIu7
-rnXAQg/gTegno76qia3cQZRIVw174fPiQaOqAVccxopEI7KXL0Tn9Si7qWsErsTh
-2HziRBmwrDCtcmD8x+8MfWhNAK2AFoxXwgtb18nVqis=
+define([
+    "jquery", "app/ui", "app/api"
+], function($, appui, aapi) {
+    "use strict";
+
+    var init = function() {
+        appui.cards_image();
+        aapi.yt_search();
+        aapi.get_player_content();
+    };
+
+    return {init: init}
+});

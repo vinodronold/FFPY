@@ -1,8 +1,8 @@
-U2FsdGVkX18Brd7b3qaisLSvLnmCsydshiaOlSFZzzJ32p75qRPzjXtrgBzFLl9C
-/DPRiCcqy/hGY6k6YWL7J6VPNFRCqnLnQ+Q0IGDVsFiV+q01dr9bGcs5OXqt7vMb
-BeN4fpRsPBmGZi73koOwkmYe8xfTrzQvcc2EPXrS1jRD6doOYUWj6o/9Hv/DTQ2u
-XEfEDoL4jhJ8fYUzGmZLYRyNfWkX3Xlh0lHHbaa4wDWhgkZSWoBnUS2lYTPXtnYo
-bh1OzdwlJ47ONec4EaB28TdhTKy5BSxh4OqBit9YDC9fxO8QOFAE3RqIL+5oYAGT
-Ego53iIFprcXaCjBCQHuJcFEmrN8styJH4tRCVMtdhpx418JQmAkvh8VYobDmJ2/
-c37Rn8bvOZ3avIcCSsnxSEnfgq3NwfoxBxpVe4qmykb4JbdIkWFdiwvplIWEMbES
-cToZ8yKbnedpEi6m70fiTUFSRZyvTHVehjJ0VhpLqzKmgSnd71wbIto9hlVWMQzM
+/*global django:true, jQuery:false*/
+/* Puts the included jQuery into our own namespace using noConflict and passing
+ * it 'true'. This ensures that the included jQuery doesn't pollute the global
+ * namespace (i.e. this preserves pre-existing values for both window.$ and
+ * window.jQuery).
+ */
+var django = django || {};
+django.jQuery = jQuery.noConflict(true);

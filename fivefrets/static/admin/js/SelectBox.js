@@ -1,121 +1,144 @@
-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
-6GGDL3E9uILmLNYh6xtbEQ==
+(function($) {
+    'use strict';
+    var SelectBox = {
+        cache: {},
+        init: function(id) {
+            var box = document.getElementById(id);
+            var node;
+            SelectBox.cache[id] = [];
+            var cache = SelectBox.cache[id];
+            var boxOptions = box.options;
+            var boxOptionsLength = boxOptions.length;
+            for (var i = 0, j = boxOptionsLength; i < j; i++) {
+                node = boxOptions[i];
+                cache.push({value: node.value, text: node.text, displayed: 1});
+            }
+        },
+        redisplay: function(id) {
+            // Repopulate HTML select box from cache
+            var box = document.getElementById(id);
+            var node;
+            $(box).empty(); // clear all options
+            var new_options = box.outerHTML.slice(0, -9);  // grab just the opening tag
+            var cache = SelectBox.cache[id];
+            for (var i = 0, j = cache.length; i < j; i++) {
+                node = cache[i];
+                if (node.displayed) {
+                    var new_option = new Option(node.text, node.value, false, false);
+                    // Shows a tooltip when hovering over the option
+                    new_option.setAttribute("title", node.text);
+                    new_options += new_option.outerHTML;
+                }
+            }
+            new_options += '</select>';
+            box.outerHTML = new_options;
+        },
+        filter: function(id, text) {
+            // Redisplay the HTML select box, displaying only the choices containing ALL
+            // the words in text. (It's an AND search.)
+            var tokens = text.toLowerCase().split(/\s+/);
+            var node, token;
+            var cache = SelectBox.cache[id];
+            for (var i = 0, j = cache.length; i < j; i++) {
+                node = cache[i];
+                node.displayed = 1;
+                var node_text = node.text.toLowerCase();
+                var numTokens = tokens.length;
+                for (var k = 0; k < numTokens; k++) {
+                    token = tokens[k];
+                    if (node_text.indexOf(token) === -1) {
+                        node.displayed = 0;
+                        break;  // Once the first token isn't found we're done
+                    }
+                }
+            }
+            SelectBox.redisplay(id);
+        },
+        delete_from_cache: function(id, value) {
+            var node, delete_index = null;
+            var cache = SelectBox.cache[id];
+            for (var i = 0, j = cache.length; i < j; i++) {
+                node = cache[i];
+                if (node.value === value) {
+                    delete_index = i;
+                    break;
+                }
+            }
+            cache.splice(delete_index, 1);
+        },
+        add_to_cache: function(id, option) {
+            SelectBox.cache[id].push({value: option.value, text: option.text, displayed: 1});
+        },
+        cache_contains: function(id, value) {
+            // Check if an item is contained in the cache
+            var node;
+            var cache = SelectBox.cache[id];
+            for (var i = 0, j = cache.length; i < j; i++) {
+                node = cache[i];
+                if (node.value === value) {
+                    return true;
+                }
+            }
+            return false;
+        },
+        move: function(from, to) {
+            var from_box = document.getElementById(from);
+            var option;
+            var boxOptions = from_box.options;
+            var boxOptionsLength = boxOptions.length;
+            for (var i = 0, j = boxOptionsLength; i < j; i++) {
+                option = boxOptions[i];
+                var option_value = option.value;
+                if (option.selected && SelectBox.cache_contains(from, option_value)) {
+                    SelectBox.add_to_cache(to, {value: option_value, text: option.text, displayed: 1});
+                    SelectBox.delete_from_cache(from, option_value);
+                }
+            }
+            SelectBox.redisplay(from);
+            SelectBox.redisplay(to);
+        },
+        move_all: function(from, to) {
+            var from_box = document.getElementById(from);
+            var option;
+            var boxOptions = from_box.options;
+            var boxOptionsLength = boxOptions.length;
+            for (var i = 0, j = boxOptionsLength; i < j; i++) {
+                option = boxOptions[i];
+                var option_value = option.value;
+                if (SelectBox.cache_contains(from, option_value)) {
+                    SelectBox.add_to_cache(to, {value: option_value, text: option.text, displayed: 1});
+                    SelectBox.delete_from_cache(from, option_value);
+                }
+            }
+            SelectBox.redisplay(from);
+            SelectBox.redisplay(to);
+        },
+        sort: function(id) {
+            SelectBox.cache[id].sort(function(a, b) {
+                a = a.text.toLowerCase();
+                b = b.text.toLowerCase();
+                try {
+                    if (a > b) {
+                        return 1;
+                    }
+                    if (a < b) {
+                        return -1;
+                    }
+                }
+                catch (e) {
+                    // silently fail on IE 'unknown' exception
+                }
+                return 0;
+            } );
+        },
+        select_all: function(id) {
+            var box = document.getElementById(id);
+            var boxOptions = box.options;
+            var boxOptionsLength = boxOptions.length;
+            for (var i = 0; i < boxOptionsLength; i++) {
+                boxOptions[i].selected = 'selected';
+            }
+        }
+    };
+    window.SelectBox = SelectBox;
+})(django.jQuery);
